@@ -1,4 +1,6 @@
-# Valuación relativa de los bancos peruanos listados en bolsa
+# Valuación relativa de los bancos peruanos listados en bolsa: un análisis del múltiplo P/B, 2010-2025
+
+   *Relative valuation of Peruvian listed banks: an analysis of the P/B ratio, 2010–2025*
 
 - **Autora:** Daniela Andrea Vasquez Medina
 - **Código de matrícula:** 2024200537D
