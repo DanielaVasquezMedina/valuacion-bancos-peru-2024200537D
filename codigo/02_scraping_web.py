@@ -1,6 +1,6 @@
 # Nombres y apellidos: Daniela Andrea Vasquez Medina
 # Código de matrícula: 2024200537D
-# Tema N.º 47: Valuación relativa de los bancos peruanos listados en bolsa (S06 Valuación de acciones)
+# Tema N.º 47: Valuación relativa de los bancos peruanos listados en bolsa
 # Fecha de extracción: 2026-09-24
 
 """
@@ -58,6 +58,8 @@ def registrar(mensaje):
         f.write(linea + "\n")
 
 # ================= PARTE A: DESCARGA =================
+#revisa robots.txt, descarga los 579 Excel con User-Agent identificable y pausa de 1 segundo,
+#verifica que cada archivo sea un Excel real y registra el código HTTP.
 
 # ---------- BLOQUE 5: revisar robots.txt ----------
 robots = robotparser.RobotFileParser()
@@ -116,7 +118,8 @@ registrar(f"Inventario guardado: {ARCHIVO_INVENTARIO}")
 registrar(f"Resumen de estados: {tabla['estado'].value_counts().to_dict()}")
 
 # ================= PARTE B: LECTURA DE LOS ARCHIVOS =================
-
+# Parte B: lee cada archivo buscando bancos y
+# variables por texto, porque las hojas, filas y nombres cambian con los años
 # ---------- BLOQUE 8: funciones auxiliares ----------
 def normalizar(texto):
     """Quita tildes, espacios repetidos y mayúsculas, para comparar textos."""

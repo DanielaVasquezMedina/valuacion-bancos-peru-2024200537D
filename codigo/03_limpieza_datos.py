@@ -1,6 +1,6 @@
 # Nombres y apellidos: Daniela Andrea Vasquez Medina
 # Código de matrícula: 2024200537D
-# Tema N.º 47: Valuación relativa de los bancos peruanos listados en bolsa (S06 Valuación de acciones)
+# Tema N.º 47: Valuación relativa de los bancos peruanos listados en bolsa
 # Fecha de extracción: 2026-09-24
 
 """
