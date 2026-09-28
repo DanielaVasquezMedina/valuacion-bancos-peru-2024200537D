@@ -4,8 +4,8 @@ MODELO PRINCIPAL - errores estándar clásicos
 Dep. Variable:            pb_promedio   R-squared:                       0.527
 Model:                            OLS   Adj. R-squared:                  0.525
 Method:                 Least Squares   F-statistic:                     260.9
-Date:                Sat, 26 Sep 2026   Prob (F-statistic):          9.15e-114
-Time:                        01:18:30   Log-Likelihood:                -731.98
+Date:                Mon, 28 Sep 2026   Prob (F-statistic):          9.15e-114
+Time:                        19:13:37   Log-Likelihood:                -731.98
 No. Observations:                 707   AIC:                             1472.
 Df Residuals:                     703   BIC:                             1490.
 Df Model:                           3                                         
@@ -33,8 +33,8 @@ MODELO PRINCIPAL - errores estándar de Newey-West (por banco)
 Dep. Variable:            pb_promedio   R-squared:                       0.527
 Model:                            OLS   Adj. R-squared:                  0.525
 Method:                 Least Squares   F-statistic:                     21.23
-Date:                Sat, 26 Sep 2026   Prob (F-statistic):             0.0160
-Time:                        01:18:30   Log-Likelihood:                -731.98
+Date:                Mon, 28 Sep 2026   Prob (F-statistic):             0.0160
+Time:                        19:13:37   Log-Likelihood:                -731.98
 No. Observations:                 707   AIC:                             1472.
 Df Residuals:                     703   BIC:                             1490.
 Df Model:                           3                                         
@@ -62,8 +62,8 @@ ROBUSTEZ - P/B de fin de mes (Newey-West)
 Dep. Variable:             pb_fin_mes   R-squared:                       0.530
 Model:                            OLS   Adj. R-squared:                  0.528
 Method:                 Least Squares   F-statistic:                     21.88
-Date:                Sat, 26 Sep 2026   Prob (F-statistic):             0.0153
-Time:                        01:18:30   Log-Likelihood:                -732.24
+Date:                Mon, 28 Sep 2026   Prob (F-statistic):             0.0153
+Time:                        19:13:37   Log-Likelihood:                -732.24
 No. Observations:                 707   AIC:                             1472.
 Df Residuals:                     703   BIC:                             1491.
 Df Model:                           3                                         
