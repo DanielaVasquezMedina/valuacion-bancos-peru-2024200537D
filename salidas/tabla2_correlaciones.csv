@@ -1,0 +1,5 @@
+,P/B (promedio mensual),ROE (%),Morosidad (%),Ratio de capital global (%)
+P/B (promedio mensual),1.000***,0.671***,-0.668***,-0.284***
+ROE (%),0.671***,1.000***,-0.707***,-0.300***
+Morosidad (%),-0.668***,-0.707***,1.000***,0.524***
+Ratio de capital global (%),-0.284***,-0.300***,0.524***,1.000***

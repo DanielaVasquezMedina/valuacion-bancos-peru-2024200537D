@@ -1,0 +1,86 @@
+MODELO PRINCIPAL - errores estándar clásicos
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            pb_promedio   R-squared:                       0.527
+Model:                            OLS   Adj. R-squared:                  0.525
+Method:                 Least Squares   F-statistic:                     260.9
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):          9.15e-114
+Time:                        01:18:30   Log-Likelihood:                -731.98
+No. Observations:                 707   AIC:                             1472.
+Df Residuals:                     703   BIC:                             1490.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             2.1089      0.318      6.626      0.000       1.484       2.734
+roe               0.0559      0.005     10.557      0.000       0.045       0.066
+morosidad        -0.4402      0.043    -10.128      0.000      -0.526      -0.355
+ratio_capital     0.0372      0.021      1.736      0.083      -0.005       0.079
+==============================================================================
+Omnibus:                       26.390   Durbin-Watson:                   0.097
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.571
+Skew:                           0.491   Prob(JB):                     6.25e-07
+Kurtosis:                       3.063   Cond. No.                         316.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MODELO PRINCIPAL - errores estándar de Newey-West (por banco)
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            pb_promedio   R-squared:                       0.527
+Model:                            OLS   Adj. R-squared:                  0.525
+Method:                 Least Squares   F-statistic:                     21.23
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):             0.0160
+Time:                        01:18:30   Log-Likelihood:                -731.98
+No. Observations:                 707   AIC:                             1472.
+Df Residuals:                     703   BIC:                             1490.
+Df Model:                           3                                         
+Covariance Type:            hac-panel                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             2.1089      0.867      2.432      0.015       0.409       3.809
+roe               0.0559      0.017      3.329      0.001       0.023       0.089
+morosidad        -0.4402      0.120     -3.670      0.000      -0.675      -0.205
+ratio_capital     0.0372      0.061      0.612      0.540      -0.082       0.156
+==============================================================================
+Omnibus:                       26.390   Durbin-Watson:                   0.097
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.571
+Skew:                           0.491   Prob(JB):                     6.25e-07
+Kurtosis:                       3.063   Cond. No.                         316.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (HAC-Panel)
+
+ROBUSTEZ - P/B de fin de mes (Newey-West)
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             pb_fin_mes   R-squared:                       0.530
+Model:                            OLS   Adj. R-squared:                  0.528
+Method:                 Least Squares   F-statistic:                     21.88
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):             0.0153
+Time:                        01:18:30   Log-Likelihood:                -732.24
+No. Observations:                 707   AIC:                             1472.
+Df Residuals:                     703   BIC:                             1491.
+Df Model:                           3                                         
+Covariance Type:            hac-panel                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             2.0518      0.866      2.370      0.018       0.355       3.749
+roe               0.0571      0.017      3.442      0.001       0.025       0.090
+morosidad        -0.4376      0.120     -3.640      0.000      -0.673      -0.202
+ratio_capital     0.0393      0.060      0.651      0.515      -0.079       0.158
+==============================================================================
+Omnibus:                       23.452   Durbin-Watson:                   0.119
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.144
+Skew:                           0.462   Prob(JB):                     3.47e-06
+Kurtosis:                       3.033   Cond. No.                         316.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (HAC-Panel)

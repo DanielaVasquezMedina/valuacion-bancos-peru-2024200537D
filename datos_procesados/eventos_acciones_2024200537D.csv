@@ -1,0 +1,70 @@
+banco,tipo,mes_sbs,fecha_entrega,factor_sbs,factor_yahoo,tratamiento,rezago_meses
+BBVA Perú,confirmado,2010-03,2010-11-16,1.2529724865300973,1.252972,acciones anteriores hasta la fecha de entrega,8.0
+BBVA Perú,confirmado,2011-03,2011-09-14,1.054683293263694,1.054683,acciones anteriores hasta la fecha de entrega,6.0
+BBVA Perú,confirmado,2012-03,2012-11-27,1.1451682800052805,1.145168,acciones anteriores hasta la fecha de entrega,8.0
+BBVA Perú,confirmado,2013-03,2013-12-13,1.2238057716414752,1.22381,acciones anteriores hasta la fecha de entrega,9.0
+BBVA Perú,confirmado,2014-03,2014-08-22,1.1914879303419283,1.191488,acciones anteriores hasta la fecha de entrega,5.0
+BBVA Perú,confirmado,2015-03,2015-08-04,1.165596870987619,1.165597,acciones anteriores hasta la fecha de entrega,5.0
+BBVA Perú,confirmado,2016-03,2016-06-15,1.1631072555991535,1.163107,acciones anteriores hasta la fecha de entrega,3.0
+BBVA Perú,confirmado,2017-06,2017-07-13,1.1094548753775149,1.109455,acciones anteriores hasta la fecha de entrega,1.0
+BBVA Perú,confirmado,2018-05,2018-06-20,1.0994205753612931,1.09942,acciones anteriores hasta la fecha de entrega,1.0
+BBVA Perú,confirmado,2019-03,2019-07-03,1.0962276298718783,1.096228,acciones anteriores hasta la fecha de entrega,4.0
+BBVA Perú,confirmado,2020-05,2020-10-28,1.109420042474047,1.10942,acciones anteriores hasta la fecha de entrega,5.0
+BBVA Perú,confirmado,2021-03,2021-06-24,1.0351189382104846,1.035118,acciones anteriores hasta la fecha de entrega,3.0
+BBVA Perú,confirmado,2022-03,2022-07-14,1.0922867953785982,1.092287,acciones anteriores hasta la fecha de entrega,4.0
+BBVA Perú,confirmado,2023-03,2023-06-15,1.1036314918092984,1.103631,acciones anteriores hasta la fecha de entrega,3.0
+BBVA Perú,confirmado,2024-03,2024-06-11,1.091766511317577,1.091767,acciones anteriores hasta la fecha de entrega,3.0
+BBVA Perú,confirmado,2025-03,2025-06-10,1.0848312995682148,1.084831,acciones anteriores hasta la fecha de entrega,3.0
+BCP,confirmado,2010-03,2010-07-01,1.1478489315564235,1.14785,acciones anteriores hasta la fecha de entrega,4.0
+BCP,confirmado,2012-03,2012-06-01,1.2463734635668242,1.2463,acciones anteriores hasta la fecha de entrega,3.0
+BCP,confirmado,2013-03,2013-07-01,1.2093914436415079,1.209391,acciones anteriores hasta la fecha de entrega,4.0
+BCP,confirmado,2014-03,2014-06-03,1.2585223267718975,1.258522,acciones anteriores hasta la fecha de entrega,3.0
+BCP,confirmado,2015-03,2015-06-01,1.239542301785933,1.239542,acciones anteriores hasta la fecha de entrega,3.0
+BCP,confirmado,2016-03,2016-06-02,1.2070866066142927,1.207087,acciones anteriores hasta la fecha de entrega,3.0
+BCP,confirmado,2017-03,2017-06-08,1.1226936305014,1.122693,acciones anteriores hasta la fecha de entrega,3.0
+BCP,confirmado,2018-03,2018-06-22,1.1055069307978411,1.105506,acciones anteriores hasta la fecha de entrega,3.0
+BCP,confirmado,2019-03,2019-06-17,1.164989947074844,1.164989,acciones anteriores hasta la fecha de entrega,3.0
+BCP,confirmado,2020-04,2020-09-11,1.0831915267125736,1.083191,acciones anteriores hasta la fecha de entrega,5.0
+BCP,confirmado,2021-03,2021-11-09,1.0225888917043071,1.022588,acciones anteriores hasta la fecha de entrega,8.0
+BCP,confirmado,2022-03,2022-08-10,1.075898974249039,1.075899,acciones anteriores hasta la fecha de entrega,5.0
+BCP,confirmado,2023-03,2023-08-09,1.065439060812104,1.065439,acciones anteriores hasta la fecha de entrega,5.0
+Scotiabank Perú,split_sin_aumento_sbs,,2010-03-29,,2.76485,12 meses previos marcados como no confirmados,
+Scotiabank Perú,confirmado,2011-03,2011-09-01,1.3060322382136553,1.3115960000000002,acciones anteriores hasta la fecha de entrega,6.0
+Scotiabank Perú,confirmado,2011-08,2011-11-02,1.1219924750464234,1.123683,acciones anteriores hasta la fecha de entrega,3.0
+Scotiabank Perú,confirmado,2012-02,2012-07-13,1.068767789957931,1.069616,acciones anteriores hasta la fecha de entrega,5.0
+Scotiabank Perú,confirmado,2012-07,2012-11-23,1.1283447132247337,1.129825,acciones anteriores hasta la fecha de entrega,4.0
+Scotiabank Perú,confirmado,2012-09,2013-02-08,1.0288515089428256,1.02915,acciones anteriores hasta la fecha de entrega,5.0
+Scotiabank Perú,confirmado,2013-12,2014-03-03,1.070106026054327,1.0708,acciones anteriores hasta la fecha de entrega,3.0
+Scotiabank Perú,confirmado,2014-07,2014-10-09,1.1637829534176667,1.1653,acciones anteriores hasta la fecha de entrega,3.0
+Scotiabank Perú,confirmado,2014-09,2015-01-05,1.0366524232067662,1.036944,acciones anteriores hasta la fecha de entrega,4.0
+Scotiabank Perú,confirmado,2015-04,2015-09-04,1.0678787139056352,1.068399,acciones anteriores hasta la fecha de entrega,5.0
+Scotiabank Perú,confirmado,2015-06,2015-11-04,1.056858711191742,1.057267,acciones anteriores hasta la fecha de entrega,5.0
+Scotiabank Perú,confirmado,2016-06,2016-09-01,1.0051410470395918,1.006787,acciones anteriores hasta la fecha de entrega,3.0
+Scotiabank Perú,confirmado,2016-03,2016-10-03,1.158781108128642,1.158781,acciones anteriores hasta la fecha de entrega,7.0
+Scotiabank Perú,confirmado,2017-03,2017-08-09,1.0726642486919633,1.072664,acciones anteriores hasta la fecha de entrega,5.0
+Scotiabank Perú,confirmado,2017-07,2017-10-18,1.0905555872921129,1.090556,acciones anteriores hasta la fecha de entrega,3.0
+Scotiabank Perú,confirmado,2018-03,2018-07-24,1.0866811835280514,1.086681,acciones anteriores hasta la fecha de entrega,4.0
+Scotiabank Perú,confirmado,2019-03,2019-07-16,1.1045779328589032,1.104578,acciones anteriores hasta la fecha de entrega,4.0
+Scotiabank Perú,confirmado,2020-05,2020-09-09,1.1592544684038746,1.159254,acciones anteriores hasta la fecha de entrega,4.0
+Scotiabank Perú,confirmado,2021-03,2021-08-10,1.0237775843420172,1.023777,acciones anteriores hasta la fecha de entrega,5.0
+Scotiabank Perú,confirmado,2023-03,2023-07-11,1.0249166022945209,1.024917,acciones anteriores hasta la fecha de entrega,4.0
+Interbank,confirmado,2014-03,2014-06-11,1.1757480974710208,1.1757,acciones anteriores hasta la fecha de entrega,3.0
+Interbank,confirmado,2015-03,2015-05-28,1.1632163701437788,1.163216,acciones anteriores hasta la fecha de entrega,2.0
+Interbank,confirmado,2016-03,2016-05-25,1.166985425005217,1.166985,acciones anteriores hasta la fecha de entrega,2.0
+Interbank,confirmado,2017-03,2017-05-30,1.1484666275615965,1.148467,acciones anteriores hasta la fecha de entrega,2.0
+Interbank,confirmado,2018-03,2018-05-15,1.1332513719347337,1.133251,acciones anteriores hasta la fecha de entrega,2.0
+Interbank,confirmado,2019-03,2019-05-23,1.1352958008533844,1.135295,acciones anteriores hasta la fecha de entrega,2.0
+Interbank,confirmado,2021-03,2021-05-27,1.05066856996247,1.050668,acciones anteriores hasta la fecha de entrega,2.0
+Interbank,confirmado,2022-03,2022-09-02,1.0971382365192144,1.097138,acciones anteriores hasta la fecha de entrega,6.0
+Interbank,confirmado,2023-03,2023-06-02,1.086415448841022,1.086415,acciones anteriores hasta la fecha de entrega,3.0
+Interbank,confirmado,2024-03,2024-07-30,1.0684724767140075,1.068474,acciones anteriores hasta la fecha de entrega,4.0
+Interbank,confirmado,2025-03,2025-06-24,1.0667362923959165,1.066736,acciones anteriores hasta la fecha de entrega,3.0
+Interbank,aumento_sbs_sin_split,2010-03,,1.2677781704536792,,6 meses marcados como no confirmados,
+Interbank,aumento_sbs_sin_split,2011-03,,1.2447565215707705,,6 meses marcados como no confirmados,
+Interbank,aumento_sbs_sin_split,2012-03,,1.220402707781118,,6 meses marcados como no confirmados,
+Interbank,aumento_sbs_sin_split,2013-01,,1.0111702372285745,,6 meses marcados como no confirmados,
+Interbank,aumento_sbs_sin_split,2013-03,,1.18268726309876,,6 meses marcados como no confirmados,
+Interbank,aumento_sbs_sin_split,2020-04,,1.2005349722507574,,6 meses marcados como no confirmados,
+Scotiabank Perú,aumento_sbs_sin_split,2010-07,,1.0991921176089012,,7 meses marcados como no confirmados,
+BCP,reduccion_sbs,2012-11,,0.9733366521777459,,se aplica en el mes SBS (sin ajuste de precio),
+Scotiabank Perú,reduccion_sbs,2016-05,,0.9948852481403146,,se aplica en el mes SBS (sin ajuste de precio),

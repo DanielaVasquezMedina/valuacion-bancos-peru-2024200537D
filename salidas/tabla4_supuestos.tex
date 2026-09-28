@@ -1,0 +1,13 @@
+\begin{tabular}{lrrl}
+\toprule
+ & Estadístico & p-valor & Criterio \\
+Prueba &  &  &  \\
+\midrule
+Durbin-Watson (autocorrelación) & 0.0965 & NaN & Cercano a 2: sin autocorrelación; menor a 1.5: autocorrelación positiva \\
+Breusch-Pagan (heterocedasticidad) & 13.8588 & 0.0031 & H0: varianza constante; p <= 0.05 indica heterocedasticidad \\
+Jarque-Bera (normalidad) & 28.5706 & 0.0000 & H0: errores normales; p <= 0.05 indica no normalidad \\
+VIF ROE (%) & 2.0302 & NaN & Mayor a 10: multicolinealidad grave; mayor a 5: precaución \\
+VIF Morosidad (%) & 2.5484 & NaN & Mayor a 10: multicolinealidad grave; mayor a 5: precaución \\
+VIF Ratio de capital global (%) & 1.3987 & NaN & Mayor a 10: multicolinealidad grave; mayor a 5: precaución \\
+\bottomrule
+\end{tabular}
