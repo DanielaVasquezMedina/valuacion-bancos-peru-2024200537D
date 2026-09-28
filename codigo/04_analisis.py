@@ -200,7 +200,7 @@ fig, ax = plt.subplots(figsize=(10, 5))
 for banco in ORDEN_BANCOS:
     ax.plot(serie.index, serie[banco], label=banco, linewidth=1.3)
 ax.axhline(1, color="gray", linestyle="--", linewidth=0.8)   # referencia: P/B = 1
-ax.set_xlabel("Mes")
+ax.set_xlabel("Año")
 ax.set_ylabel("P/B (promedio mensual)")
 ax.legend()
 ax.grid(alpha=0.3)
@@ -350,15 +350,26 @@ registrar(f"Durbin-Watson = {dw:.3f} | Breusch-Pagan p = {bp_p:.4f} | Jarque-Ber
 #      anexo del artículo y para responder preguntas del docente.
 # RESULTADO: tabla5_robustez y resumen_regresion.txt en salidas/.
 # =============================================================================
+# (1) Robustez de la variable dependiente: P/B del último día válido del mes
 modelo_rob = sm.OLS(datos_reg["pb_fin_mes"], X).fit(cov_type="hac-panel",
                     cov_kwds={"groups": grupos, "maxlags": MAXLAGS_NW})
+
+# (2) Robustez de la corrección de errores: Newey-West con 24 rezagos (2 años).
+#     Motivo: el Durbin-Watson muy bajo indica que el P/B es muy persistente;
+#     si las conclusiones se mantienen con 24 rezagos, son más confiables.
+modelo_nw24 = sm.OLS(y, X).fit(cov_type="hac-panel",
+                     cov_kwds={"groups": grupos, "maxlags": 24})
+
 tabla5 = pd.DataFrame({
     "Coef. (promedio mensual)": modelo_nw.params.values,
-    "p-valor (promedio)": modelo_nw.pvalues.values,
+    "p-valor (NW 12 rezagos)": modelo_nw.pvalues.values,
+    "p-valor (NW 24 rezagos)": modelo_nw24.pvalues.values,
     "Coef. (fin de mes)": modelo_rob.params.values,
     "p-valor (fin de mes)": modelo_rob.pvalues.values,
 }, index=nombres)
 guardar_tabla(tabla5, "tabla5_robustez", 4)
+registrar("Robustez NW 24 rezagos: " + " | ".join(
+    f"{ETIQUETAS[v]} p = {modelo_nw24.pvalues[v]:.4f}" for v in VARIABLES_X))
 
 with open(os.path.join(CARPETA_SALIDAS, "resumen_regresion.txt"), "w", encoding="utf-8") as f:
     f.write("MODELO PRINCIPAL - errores estándar clásicos\n")
