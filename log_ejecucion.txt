@@ -1,0 +1,654 @@
+[2026-09-28 19:18:08 hora de Lima] [01_API] Inicio | yfinance 0.2.66 | periodo 2010-01-01 a 2025-12-31
+[2026-09-28 19:18:09 hora de Lima] [01_API] BBVAC1.LM: OK - 4012 filas (2010-01-04 a 2025-12-31)
+[2026-09-28 19:18:09 hora de Lima] [01_API] BBVAC1.LM: 18 splits registrados en total
+[2026-09-28 19:18:10 hora de Lima] [01_API] CREDITC1.LM: OK - 4014 filas (2010-01-04 a 2025-12-31)
+[2026-09-28 19:18:10 hora de Lima] [01_API] CREDITC1.LM: 15 splits registrados en total
+[2026-09-28 19:18:12 hora de Lima] [01_API] SCOTIAC1.LM: OK - 4023 filas (2010-01-04 a 2025-12-31)
+[2026-09-28 19:18:12 hora de Lima] [01_API] SCOTIAC1.LM: 21 splits registrados en total
+[2026-09-28 19:18:13 hora de Lima] [01_API] INTERBC1.LM: OK - 4023 filas (2010-01-04 a 2025-12-31)
+[2026-09-28 19:18:13 hora de Lima] [01_API] INTERBC1.LM: 13 splits registrados en total
+[2026-09-28 19:18:15 hora de Lima] [01_API] Guardado: datos_crudos/datos_crudos_yahoo_2024200537D.csv
+[2026-09-28 19:18:15 hora de Lima] [01_API] Guardado: datos_crudos/splits_yahoo_2024200537D.csv
+[2026-09-28 19:18:15 hora de Lima] [01_API] Fin del script 01
+[2026-09-28 19:20:46 hora de Lima] [02_SBS] Inicio | 193 meses x 3 cuadros = 579 archivos
+[2026-09-28 19:20:48 hora de Lima] [02_SBS] B-2201-di2009.XLS: HTTP 200 | OK | 210432 bytes
+[2026-09-28 19:20:50 hora de Lima] [02_SBS] B-2401-di2009.XLS: HTTP 200 | OK | 49152 bytes
+[2026-09-28 19:20:51 hora de Lima] [02_SBS] B-2402-di2009.XLS: HTTP 200 | OK | 35840 bytes
+[2026-09-28 19:20:52 hora de Lima] [02_SBS] B-2201-en2010.XLS: HTTP 200 | OK | 210432 bytes
+[2026-09-28 19:20:54 hora de Lima] [02_SBS] B-2401-en2010.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:20:55 hora de Lima] [02_SBS] B-2402-en2010.XLS: HTTP 200 | OK | 35328 bytes
+[2026-09-28 19:20:57 hora de Lima] [02_SBS] B-2201-fe2010.XLS: HTTP 200 | OK | 210432 bytes
+[2026-09-28 19:20:58 hora de Lima] [02_SBS] B-2401-fe2010.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:20:59 hora de Lima] [02_SBS] B-2402-fe2010.XLS: HTTP 200 | OK | 35328 bytes
+[2026-09-28 19:21:01 hora de Lima] [02_SBS] B-2201-ma2010.XLS: HTTP 200 | OK | 210432 bytes
+[2026-09-28 19:21:02 hora de Lima] [02_SBS] B-2401-ma2010.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:21:03 hora de Lima] [02_SBS] B-2402-ma2010.XLS: HTTP 200 | OK | 35328 bytes
+[2026-09-28 19:21:05 hora de Lima] [02_SBS] B-2201-ab2010.XLS: HTTP 200 | OK | 210944 bytes
+[2026-09-28 19:21:06 hora de Lima] [02_SBS] B-2401-ab2010.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:21:07 hora de Lima] [02_SBS] B-2402-ab2010.XLS: HTTP 200 | OK | 35328 bytes
+[2026-09-28 19:21:09 hora de Lima] [02_SBS] B-2201-my2010.XLS: HTTP 200 | OK | 214016 bytes
+[2026-09-28 19:21:10 hora de Lima] [02_SBS] B-2401-my2010.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:21:11 hora de Lima] [02_SBS] B-2402-my2010.XLS: HTTP 200 | OK | 35840 bytes
+[2026-09-28 19:21:13 hora de Lima] [02_SBS] B-2201-jn2010.XLS: HTTP 200 | OK | 213504 bytes
+[2026-09-28 19:21:14 hora de Lima] [02_SBS] B-2401-jn2010.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:21:16 hora de Lima] [02_SBS] B-2402-jn2010.XLS: HTTP 200 | OK | 35840 bytes
+[2026-09-28 19:21:17 hora de Lima] [02_SBS] B-2201-jl2010.XLS: HTTP 200 | OK | 268800 bytes
+[2026-09-28 19:21:19 hora de Lima] [02_SBS] B-2401-jl2010.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:21:20 hora de Lima] [02_SBS] B-2402-jl2010.XLS: HTTP 200 | OK | 35840 bytes
+[2026-09-28 19:21:22 hora de Lima] [02_SBS] B-2201-ag2010.XLS: HTTP 200 | OK | 275456 bytes
+[2026-09-28 19:21:23 hora de Lima] [02_SBS] B-2401-ag2010.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:21:24 hora de Lima] [02_SBS] B-2402-ag2010.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:21:26 hora de Lima] [02_SBS] B-2201-se2010.XLS: HTTP 200 | OK | 274944 bytes
+[2026-09-28 19:21:27 hora de Lima] [02_SBS] B-2401-se2010.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:21:28 hora de Lima] [02_SBS] B-2402-se2010.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:21:30 hora de Lima] [02_SBS] B-2201-oc2010.XLS: HTTP 200 | OK | 275456 bytes
+[2026-09-28 19:21:31 hora de Lima] [02_SBS] B-2401-oc2010.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:21:33 hora de Lima] [02_SBS] B-2402-oc2010.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:21:35 hora de Lima] [02_SBS] B-2201-no2010.XLS: HTTP 200 | OK | 276992 bytes
+[2026-09-28 19:21:36 hora de Lima] [02_SBS] B-2401-no2010.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:21:37 hora de Lima] [02_SBS] B-2402-no2010.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:21:39 hora de Lima] [02_SBS] B-2201-di2010.XLS: HTTP 200 | OK | 277504 bytes
+[2026-09-28 19:21:40 hora de Lima] [02_SBS] B-2401-di2010.XLS: HTTP 200 | OK | 42496 bytes
+[2026-09-28 19:21:41 hora de Lima] [02_SBS] B-2402-di2010.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:21:43 hora de Lima] [02_SBS] B-2201-en2011.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:21:44 hora de Lima] [02_SBS] B-2401-en2011.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:21:46 hora de Lima] [02_SBS] B-2402-en2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:21:47 hora de Lima] [02_SBS] B-2201-fe2011.XLS: HTTP 200 | OK | 262144 bytes
+[2026-09-28 19:21:49 hora de Lima] [02_SBS] B-2401-fe2011.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:21:50 hora de Lima] [02_SBS] B-2402-fe2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:21:52 hora de Lima] [02_SBS] B-2201-ma2011.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:21:53 hora de Lima] [02_SBS] B-2401-ma2011.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:21:54 hora de Lima] [02_SBS] B-2402-ma2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:21:56 hora de Lima] [02_SBS] B-2201-ab2011.XLS: HTTP 200 | OK | 263680 bytes
+[2026-09-28 19:21:57 hora de Lima] [02_SBS] B-2401-ab2011.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:21:58 hora de Lima] [02_SBS] B-2402-ab2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:00 hora de Lima] [02_SBS] B-2201-my2011.XLS: HTTP 200 | OK | 263680 bytes
+[2026-09-28 19:22:01 hora de Lima] [02_SBS] B-2401-my2011.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:22:02 hora de Lima] [02_SBS] B-2402-my2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:04 hora de Lima] [02_SBS] B-2201-jn2011.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:22:06 hora de Lima] [02_SBS] B-2401-jn2011.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:22:07 hora de Lima] [02_SBS] B-2402-jn2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:09 hora de Lima] [02_SBS] B-2201-jl2011.XLS: HTTP 200 | OK | 263680 bytes
+[2026-09-28 19:22:10 hora de Lima] [02_SBS] B-2401-jl2011.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:22:11 hora de Lima] [02_SBS] B-2402-jl2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:13 hora de Lima] [02_SBS] B-2201-ag2011.XLS: HTTP 200 | OK | 263680 bytes
+[2026-09-28 19:22:14 hora de Lima] [02_SBS] B-2401-ag2011.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:22:15 hora de Lima] [02_SBS] B-2402-ag2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:17 hora de Lima] [02_SBS] B-2201-se2011.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:22:18 hora de Lima] [02_SBS] B-2401-se2011.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:22:19 hora de Lima] [02_SBS] B-2402-se2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:21 hora de Lima] [02_SBS] B-2201-oc2011.XLS: HTTP 200 | OK | 263680 bytes
+[2026-09-28 19:22:22 hora de Lima] [02_SBS] B-2401-oc2011.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:22:24 hora de Lima] [02_SBS] B-2402-oc2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:26 hora de Lima] [02_SBS] B-2201-no2011.XLS: HTTP 200 | OK | 261632 bytes
+[2026-09-28 19:22:27 hora de Lima] [02_SBS] B-2401-no2011.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:22:28 hora de Lima] [02_SBS] B-2402-no2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:30 hora de Lima] [02_SBS] B-2201-di2011.XLS: HTTP 200 | OK | 264192 bytes
+[2026-09-28 19:22:31 hora de Lima] [02_SBS] B-2401-di2011.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:22:32 hora de Lima] [02_SBS] B-2402-di2011.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:34 hora de Lima] [02_SBS] B-2201-en2012.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:22:35 hora de Lima] [02_SBS] B-2401-en2012.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:22:37 hora de Lima] [02_SBS] B-2402-en2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:38 hora de Lima] [02_SBS] B-2201-fe2012.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:22:40 hora de Lima] [02_SBS] B-2401-fe2012.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:22:41 hora de Lima] [02_SBS] B-2402-fe2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:43 hora de Lima] [02_SBS] B-2201-ma2012.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:22:44 hora de Lima] [02_SBS] B-2401-ma2012.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:22:45 hora de Lima] [02_SBS] B-2402-ma2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:47 hora de Lima] [02_SBS] B-2201-ab2012.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:22:48 hora de Lima] [02_SBS] B-2401-ab2012.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:22:49 hora de Lima] [02_SBS] B-2402-ab2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:51 hora de Lima] [02_SBS] B-2201-my2012.XLS: HTTP 200 | OK | 263680 bytes
+[2026-09-28 19:22:52 hora de Lima] [02_SBS] B-2401-my2012.XLS: HTTP 200 | OK | 33280 bytes
+[2026-09-28 19:22:53 hora de Lima] [02_SBS] B-2402-my2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:55 hora de Lima] [02_SBS] B-2201-jn2012.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:22:56 hora de Lima] [02_SBS] B-2401-jn2012.XLS: HTTP 200 | OK | 33792 bytes
+[2026-09-28 19:22:58 hora de Lima] [02_SBS] B-2402-jn2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:22:59 hora de Lima] [02_SBS] B-2201-jl2012.XLS: HTTP 200 | OK | 262656 bytes
+[2026-09-28 19:23:01 hora de Lima] [02_SBS] B-2401-jl2012.XLS: HTTP 200 | OK | 33280 bytes
+[2026-09-28 19:23:02 hora de Lima] [02_SBS] B-2402-jl2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:23:04 hora de Lima] [02_SBS] B-2201-ag2012.XLS: HTTP 200 | OK | 271872 bytes
+[2026-09-28 19:23:05 hora de Lima] [02_SBS] B-2401-ag2012.XLS: HTTP 200 | OK | 34304 bytes
+[2026-09-28 19:23:06 hora de Lima] [02_SBS] B-2402-ag2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:23:08 hora de Lima] [02_SBS] B-2201-se2012.XLS: HTTP 200 | OK | 308736 bytes
+[2026-09-28 19:23:09 hora de Lima] [02_SBS] B-2401-se2012.XLS: HTTP 200 | OK | 33792 bytes
+[2026-09-28 19:23:10 hora de Lima] [02_SBS] B-2402-se2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:23:12 hora de Lima] [02_SBS] B-2201-oc2012.XLS: HTTP 200 | OK | 271872 bytes
+[2026-09-28 19:23:13 hora de Lima] [02_SBS] B-2401-oc2012.XLS: HTTP 200 | OK | 34304 bytes
+[2026-09-28 19:23:15 hora de Lima] [02_SBS] B-2402-oc2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:23:16 hora de Lima] [02_SBS] B-2201-no2012.XLS: HTTP 200 | OK | 271360 bytes
+[2026-09-28 19:23:18 hora de Lima] [02_SBS] B-2401-no2012.XLS: HTTP 200 | OK | 34304 bytes
+[2026-09-28 19:23:19 hora de Lima] [02_SBS] B-2402-no2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:23:21 hora de Lima] [02_SBS] B-2201-di2012.XLS: HTTP 200 | OK | 272384 bytes
+[2026-09-28 19:23:22 hora de Lima] [02_SBS] B-2401-di2012.XLS: HTTP 200 | OK | 33792 bytes
+[2026-09-28 19:23:23 hora de Lima] [02_SBS] B-2402-di2012.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:23:25 hora de Lima] [02_SBS] B-2201-en2013.XLS: HTTP 200 | OK | 298496 bytes
+[2026-09-28 19:23:26 hora de Lima] [02_SBS] B-2401-en2013.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:23:27 hora de Lima] [02_SBS] B-2402-en2013.XLS: HTTP 200 | OK | 25088 bytes
+[2026-09-28 19:23:29 hora de Lima] [02_SBS] B-2201-fe2013.XLS: HTTP 200 | OK | 261632 bytes
+[2026-09-28 19:23:30 hora de Lima] [02_SBS] B-2401-fe2013.XLS: HTTP 200 | OK | 46592 bytes
+[2026-09-28 19:23:31 hora de Lima] [02_SBS] B-2402-fe2013.XLS: HTTP 200 | OK | 35840 bytes
+[2026-09-28 19:23:33 hora de Lima] [02_SBS] B-2201-ma2013.XLS: HTTP 200 | OK | 296448 bytes
+[2026-09-28 19:23:34 hora de Lima] [02_SBS] B-2401-ma2013.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:23:36 hora de Lima] [02_SBS] B-2402-ma2013.XLS: HTTP 200 | OK | 35840 bytes
+[2026-09-28 19:23:37 hora de Lima] [02_SBS] B-2201-ab2013.XLS: HTTP 200 | OK | 296960 bytes
+[2026-09-28 19:23:39 hora de Lima] [02_SBS] B-2401-ab2013.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:23:40 hora de Lima] [02_SBS] B-2402-ab2013.XLS: HTTP 200 | OK | 35840 bytes
+[2026-09-28 19:23:41 hora de Lima] [02_SBS] B-2201-my2013.XLS: HTTP 200 | OK | 296960 bytes
+[2026-09-28 19:23:43 hora de Lima] [02_SBS] B-2401-my2013.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:23:44 hora de Lima] [02_SBS] B-2402-my2013.XLS: HTTP 200 | OK | 35840 bytes
+[2026-09-28 19:23:46 hora de Lima] [02_SBS] B-2201-jn2013.XLS: HTTP 200 | OK | 296960 bytes
+[2026-09-28 19:23:47 hora de Lima] [02_SBS] B-2401-jn2013.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:23:48 hora de Lima] [02_SBS] B-2402-jn2013.XLS: HTTP 200 | OK | 35840 bytes
+[2026-09-28 19:23:50 hora de Lima] [02_SBS] B-2201-jl2013.XLS: HTTP 200 | OK | 297472 bytes
+[2026-09-28 19:23:51 hora de Lima] [02_SBS] B-2401-jl2013.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:23:52 hora de Lima] [02_SBS] B-2402-jl2013.XLS: HTTP 200 | OK | 36864 bytes
+[2026-09-28 19:23:54 hora de Lima] [02_SBS] B-2201-ag2013.XLS: HTTP 200 | OK | 296448 bytes
+[2026-09-28 19:23:55 hora de Lima] [02_SBS] B-2401-ag2013.XLS: HTTP 200 | OK | 43008 bytes
+[2026-09-28 19:23:57 hora de Lima] [02_SBS] B-2402-ag2013.XLS: HTTP 200 | OK | 36864 bytes
+[2026-09-28 19:23:58 hora de Lima] [02_SBS] B-2201-se2013.XLS: HTTP 200 | OK | 160709 bytes
+[2026-09-28 19:23:59 hora de Lima] [02_SBS] B-2401-se2013.XLS: HTTP 200 | OK | 19466 bytes
+[2026-09-28 19:24:00 hora de Lima] [02_SBS] B-2402-se2013.XLS: HTTP 200 | OK | 15341 bytes
+[2026-09-28 19:24:02 hora de Lima] [02_SBS] B-2201-oc2013.XLS: HTTP 200 | OK | 161212 bytes
+[2026-09-28 19:24:03 hora de Lima] [02_SBS] B-2401-oc2013.XLS: HTTP 200 | OK | 19080 bytes
+[2026-09-28 19:24:04 hora de Lima] [02_SBS] B-2402-oc2013.XLS: HTTP 200 | OK | 15363 bytes
+[2026-09-28 19:24:06 hora de Lima] [02_SBS] B-2201-no2013.XLS: HTTP 200 | OK | 160785 bytes
+[2026-09-28 19:24:07 hora de Lima] [02_SBS] B-2401-no2013.XLS: HTTP 200 | OK | 19783 bytes
+[2026-09-28 19:24:08 hora de Lima] [02_SBS] B-2402-no2013.XLS: HTTP 200 | OK | 15348 bytes
+[2026-09-28 19:24:10 hora de Lima] [02_SBS] B-2201-di2013.XLS: HTTP 200 | OK | 161024 bytes
+[2026-09-28 19:24:11 hora de Lima] [02_SBS] B-2401-di2013.XLS: HTTP 200 | OK | 19417 bytes
+[2026-09-28 19:24:12 hora de Lima] [02_SBS] B-2402-di2013.XLS: HTTP 200 | OK | 15349 bytes
+[2026-09-28 19:24:14 hora de Lima] [02_SBS] B-2201-en2014.XLS: HTTP 200 | OK | 158694 bytes
+[2026-09-28 19:24:15 hora de Lima] [02_SBS] B-2401-en2014.XLS: HTTP 200 | OK | 19903 bytes
+[2026-09-28 19:24:16 hora de Lima] [02_SBS] B-2402-en2014.XLS: HTTP 200 | OK | 15331 bytes
+[2026-09-28 19:24:18 hora de Lima] [02_SBS] B-2201-fe2014.XLS: HTTP 200 | OK | 164404 bytes
+[2026-09-28 19:24:19 hora de Lima] [02_SBS] B-2401-fe2014.XLS: HTTP 200 | OK | 19272 bytes
+[2026-09-28 19:24:20 hora de Lima] [02_SBS] B-2402-fe2014.XLS: HTTP 200 | OK | 15447 bytes
+[2026-09-28 19:24:22 hora de Lima] [02_SBS] B-2201-ma2014.XLS: HTTP 200 | OK | 164854 bytes
+[2026-09-28 19:24:23 hora de Lima] [02_SBS] B-2401-ma2014.XLS: HTTP 200 | OK | 19246 bytes
+[2026-09-28 19:24:24 hora de Lima] [02_SBS] B-2402-ma2014.XLS: HTTP 200 | OK | 15451 bytes
+[2026-09-28 19:24:26 hora de Lima] [02_SBS] B-2201-ab2014.XLS: HTTP 200 | OK | 165352 bytes
+[2026-09-28 19:24:27 hora de Lima] [02_SBS] B-2401-ab2014.XLS: HTTP 200 | OK | 19148 bytes
+[2026-09-28 19:24:28 hora de Lima] [02_SBS] B-2402-ab2014.XLS: HTTP 200 | OK | 15426 bytes
+[2026-09-28 19:24:30 hora de Lima] [02_SBS] B-2201-my2014.XLS: HTTP 200 | OK | 165096 bytes
+[2026-09-28 19:24:31 hora de Lima] [02_SBS] B-2401-my2014.XLS: HTTP 200 | OK | 19578 bytes
+[2026-09-28 19:24:32 hora de Lima] [02_SBS] B-2402-my2014.XLS: HTTP 200 | OK | 15431 bytes
+[2026-09-28 19:24:34 hora de Lima] [02_SBS] B-2201-jn2014.XLS: HTTP 200 | OK | 165491 bytes
+[2026-09-28 19:24:35 hora de Lima] [02_SBS] B-2401-jn2014.XLS: HTTP 200 | OK | 20377 bytes
+[2026-09-28 19:24:36 hora de Lima] [02_SBS] B-2402-jn2014.XLS: HTTP 200 | OK | 15414 bytes
+[2026-09-28 19:24:38 hora de Lima] [02_SBS] B-2201-jl2014.XLS: HTTP 200 | OK | 165734 bytes
+[2026-09-28 19:24:39 hora de Lima] [02_SBS] B-2401-jl2014.XLS: HTTP 200 | OK | 19543 bytes
+[2026-09-28 19:24:40 hora de Lima] [02_SBS] B-2402-jl2014.XLS: HTTP 200 | OK | 15446 bytes
+[2026-09-28 19:24:42 hora de Lima] [02_SBS] B-2201-ag2014.XLS: HTTP 200 | OK | 166422 bytes
+[2026-09-28 19:24:43 hora de Lima] [02_SBS] B-2401-ag2014.XLS: HTTP 200 | OK | 19702 bytes
+[2026-09-28 19:24:44 hora de Lima] [02_SBS] B-2402-ag2014.XLS: HTTP 200 | OK | 15431 bytes
+[2026-09-28 19:24:45 hora de Lima] [02_SBS] B-2201-se2014.XLS: HTTP 200 | OK | 166700 bytes
+[2026-09-28 19:24:47 hora de Lima] [02_SBS] B-2401-se2014.XLS: HTTP 200 | OK | 19674 bytes
+[2026-09-28 19:24:48 hora de Lima] [02_SBS] B-2402-se2014.XLS: HTTP 200 | OK | 15418 bytes
+[2026-09-28 19:24:49 hora de Lima] [02_SBS] B-2201-oc2014.XLS: HTTP 200 | OK | 166719 bytes
+[2026-09-28 19:24:51 hora de Lima] [02_SBS] B-2401-oc2014.XLS: HTTP 200 | OK | 19883 bytes
+[2026-09-28 19:24:52 hora de Lima] [02_SBS] B-2402-oc2014.XLS: HTTP 200 | OK | 15127 bytes
+[2026-09-28 19:24:53 hora de Lima] [02_SBS] B-2201-no2014.XLS: HTTP 200 | OK | 166787 bytes
+[2026-09-28 19:24:54 hora de Lima] [02_SBS] B-2401-no2014.XLS: HTTP 200 | OK | 19855 bytes
+[2026-09-28 19:24:56 hora de Lima] [02_SBS] B-2402-no2014.XLS: HTTP 200 | OK | 15142 bytes
+[2026-09-28 19:24:57 hora de Lima] [02_SBS] B-2201-di2014.XLS: HTTP 200 | OK | 166931 bytes
+[2026-09-28 19:24:58 hora de Lima] [02_SBS] B-2401-di2014.XLS: HTTP 200 | OK | 19682 bytes
+[2026-09-28 19:24:59 hora de Lima] [02_SBS] B-2402-di2014.XLS: HTTP 200 | OK | 15172 bytes
+[2026-09-28 19:25:01 hora de Lima] [02_SBS] B-2201-en2015.XLS: HTTP 200 | OK | 164578 bytes
+[2026-09-28 19:25:02 hora de Lima] [02_SBS] B-2401-en2015.XLS: HTTP 200 | OK | 19816 bytes
+[2026-09-28 19:25:03 hora de Lima] [02_SBS] B-2402-en2015.XLS: HTTP 200 | OK | 15199 bytes
+[2026-09-28 19:25:05 hora de Lima] [02_SBS] B-2201-fe2015.XLS: HTTP 200 | OK | 164719 bytes
+[2026-09-28 19:25:06 hora de Lima] [02_SBS] B-2401-fe2015.XLS: HTTP 200 | OK | 20027 bytes
+[2026-09-28 19:25:07 hora de Lima] [02_SBS] B-2402-fe2015.XLS: HTTP 200 | OK | 16099 bytes
+[2026-09-28 19:25:09 hora de Lima] [02_SBS] B-2201-ma2015.XLS: HTTP 200 | OK | 165297 bytes
+[2026-09-28 19:25:10 hora de Lima] [02_SBS] B-2401-ma2015.XLS: HTTP 200 | OK | 19973 bytes
+[2026-09-28 19:25:11 hora de Lima] [02_SBS] B-2402-ma2015.XLS: HTTP 200 | OK | 15295 bytes
+[2026-09-28 19:25:13 hora de Lima] [02_SBS] B-2201-ab2015.XLS: HTTP 200 | OK | 165602 bytes
+[2026-09-28 19:25:14 hora de Lima] [02_SBS] B-2401-ab2015.XLS: HTTP 200 | OK | 19773 bytes
+[2026-09-28 19:25:15 hora de Lima] [02_SBS] B-2402-ab2015.XLS: HTTP 200 | OK | 16100 bytes
+[2026-09-28 19:25:16 hora de Lima] [02_SBS] B-2201-my2015.XLS: HTTP 200 | OK | 166254 bytes
+[2026-09-28 19:25:18 hora de Lima] [02_SBS] B-2401-my2015.XLS: HTTP 200 | OK | 20460 bytes
+[2026-09-28 19:25:19 hora de Lima] [02_SBS] B-2402-my2015.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:21 hora de Lima] [02_SBS] B-2201-jn2015.XLS: HTTP 200 | OK | 306688 bytes
+[2026-09-28 19:25:22 hora de Lima] [02_SBS] B-2401-jn2015.XLS: HTTP 200 | OK | 20227 bytes
+[2026-09-28 19:25:23 hora de Lima] [02_SBS] B-2402-jn2015.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:25 hora de Lima] [02_SBS] B-2201-jl2015.XLS: HTTP 200 | OK | 307200 bytes
+[2026-09-28 19:25:26 hora de Lima] [02_SBS] B-2401-jl2015.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:25:27 hora de Lima] [02_SBS] B-2402-jl2015.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:29 hora de Lima] [02_SBS] B-2201-ag2015.XLS: HTTP 200 | OK | 307200 bytes
+[2026-09-28 19:25:30 hora de Lima] [02_SBS] B-2401-ag2015.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:25:31 hora de Lima] [02_SBS] B-2402-ag2015.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:33 hora de Lima] [02_SBS] B-2201-se2015.XLS: HTTP 200 | OK | 309248 bytes
+[2026-09-28 19:25:34 hora de Lima] [02_SBS] B-2401-se2015.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:25:36 hora de Lima] [02_SBS] B-2402-se2015.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:37 hora de Lima] [02_SBS] B-2201-oc2015.XLS: HTTP 200 | OK | 308736 bytes
+[2026-09-28 19:25:39 hora de Lima] [02_SBS] B-2401-oc2015.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:25:40 hora de Lima] [02_SBS] B-2402-oc2015.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:42 hora de Lima] [02_SBS] B-2201-no2015.XLS: HTTP 200 | OK | 308736 bytes
+[2026-09-28 19:25:43 hora de Lima] [02_SBS] B-2401-no2015.XLS: HTTP 200 | OK | 45568 bytes
+[2026-09-28 19:25:44 hora de Lima] [02_SBS] B-2402-no2015.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:46 hora de Lima] [02_SBS] B-2201-di2015.XLS: HTTP 200 | OK | 309248 bytes
+[2026-09-28 19:25:47 hora de Lima] [02_SBS] B-2401-di2015.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:25:48 hora de Lima] [02_SBS] B-2402-di2015.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:50 hora de Lima] [02_SBS] B-2201-en2016.XLS: HTTP 200 | OK | 307712 bytes
+[2026-09-28 19:25:51 hora de Lima] [02_SBS] B-2401-en2016.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:25:53 hora de Lima] [02_SBS] B-2402-en2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:55 hora de Lima] [02_SBS] B-2201-fe2016.XLS: HTTP 200 | OK | 308736 bytes
+[2026-09-28 19:25:56 hora de Lima] [02_SBS] B-2401-fe2016.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:25:57 hora de Lima] [02_SBS] B-2402-fe2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:25:59 hora de Lima] [02_SBS] B-2201-ma2016.XLS: HTTP 200 | OK | 307712 bytes
+[2026-09-28 19:26:01 hora de Lima] [02_SBS] B-2401-ma2016.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:26:02 hora de Lima] [02_SBS] B-2402-ma2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:26:04 hora de Lima] [02_SBS] B-2201-ab2016.XLS: HTTP 200 | OK | 308224 bytes
+[2026-09-28 19:26:05 hora de Lima] [02_SBS] B-2401-ab2016.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:26:06 hora de Lima] [02_SBS] B-2402-ab2016.XLS: HTTP 200 | OK | 37888 bytes
+[2026-09-28 19:26:08 hora de Lima] [02_SBS] B-2201-my2016.XLS: HTTP 200 | OK | 308736 bytes
+[2026-09-28 19:26:09 hora de Lima] [02_SBS] B-2401-my2016.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:26:11 hora de Lima] [02_SBS] B-2402-my2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:26:13 hora de Lima] [02_SBS] B-2201-jn2016.XLS: HTTP 200 | OK | 308224 bytes
+[2026-09-28 19:26:14 hora de Lima] [02_SBS] B-2401-jn2016.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:26:15 hora de Lima] [02_SBS] B-2402-jn2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:26:17 hora de Lima] [02_SBS] B-2201-jl2016.XLS: HTTP 200 | OK | 299520 bytes
+[2026-09-28 19:26:19 hora de Lima] [02_SBS] B-2401-jl2016.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:26:20 hora de Lima] [02_SBS] B-2402-jl2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:26:22 hora de Lima] [02_SBS] B-2201-ag2016.XLS: HTTP 200 | OK | 299008 bytes
+[2026-09-28 19:26:23 hora de Lima] [02_SBS] B-2401-ag2016.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:26:24 hora de Lima] [02_SBS] B-2402-ag2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:26:26 hora de Lima] [02_SBS] B-2201-se2016.XLS: HTTP 200 | OK | 299520 bytes
+[2026-09-28 19:26:27 hora de Lima] [02_SBS] B-2401-se2016.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:26:28 hora de Lima] [02_SBS] B-2402-se2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:26:30 hora de Lima] [02_SBS] B-2201-oc2016.XLS: HTTP 200 | OK | 299520 bytes
+[2026-09-28 19:26:31 hora de Lima] [02_SBS] B-2401-oc2016.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:26:33 hora de Lima] [02_SBS] B-2402-oc2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:26:34 hora de Lima] [02_SBS] B-2201-no2016.XLS: HTTP 200 | OK | 299520 bytes
+[2026-09-28 19:26:36 hora de Lima] [02_SBS] B-2401-no2016.XLS: HTTP 200 | OK | 45568 bytes
+[2026-09-28 19:26:37 hora de Lima] [02_SBS] B-2402-no2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:26:38 hora de Lima] [02_SBS] B-2201-di2016.XLS: HTTP 200 | OK | 300032 bytes
+[2026-09-28 19:26:40 hora de Lima] [02_SBS] B-2401-di2016.XLS: HTTP 200 | OK | 20210 bytes
+[2026-09-28 19:26:41 hora de Lima] [02_SBS] B-2402-di2016.XLS: HTTP 200 | OK | 37376 bytes
+[2026-09-28 19:26:43 hora de Lima] [02_SBS] B-2201-en2017.XLS: HTTP 200 | OK | 290816 bytes
+[2026-09-28 19:26:44 hora de Lima] [02_SBS] B-2401-en2017.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:26:45 hora de Lima] [02_SBS] B-2402-en2017.XLS: HTTP 200 | OK | 38912 bytes
+[2026-09-28 19:26:47 hora de Lima] [02_SBS] B-2201-fe2017.XLS: HTTP 200 | OK | 156219 bytes
+[2026-09-28 19:26:48 hora de Lima] [02_SBS] B-2401-fe2017.XLS: HTTP 200 | OK | 20008 bytes
+[2026-09-28 19:26:49 hora de Lima] [02_SBS] B-2402-fe2017.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:26:51 hora de Lima] [02_SBS] B-2201-ma2017.XLS: HTTP 200 | OK | 290816 bytes
+[2026-09-28 19:26:52 hora de Lima] [02_SBS] B-2401-ma2017.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:26:53 hora de Lima] [02_SBS] B-2402-ma2017.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:26:55 hora de Lima] [02_SBS] B-2201-ab2017.XLS: HTTP 200 | OK | 290816 bytes
+[2026-09-28 19:26:56 hora de Lima] [02_SBS] B-2401-ab2017.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:26:58 hora de Lima] [02_SBS] B-2402-ab2017.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:26:59 hora de Lima] [02_SBS] B-2201-my2017.XLS: HTTP 200 | OK | 157754 bytes
+[2026-09-28 19:27:00 hora de Lima] [02_SBS] B-2401-my2017.XLS: HTTP 200 | OK | 20030 bytes
+[2026-09-28 19:27:01 hora de Lima] [02_SBS] B-2402-my2017.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:03 hora de Lima] [02_SBS] B-2201-jn2017.XLS: HTTP 200 | OK | 158142 bytes
+[2026-09-28 19:27:04 hora de Lima] [02_SBS] B-2401-jn2017.XLS: HTTP 200 | OK | 20043 bytes
+[2026-09-28 19:27:05 hora de Lima] [02_SBS] B-2402-jn2017.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:07 hora de Lima] [02_SBS] B-2201-jl2017.XLS: HTTP 200 | OK | 291328 bytes
+[2026-09-28 19:27:08 hora de Lima] [02_SBS] B-2401-jl2017.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:27:10 hora de Lima] [02_SBS] B-2402-jl2017.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:11 hora de Lima] [02_SBS] B-2201-ag2017.XLS: HTTP 200 | OK | 291840 bytes
+[2026-09-28 19:27:13 hora de Lima] [02_SBS] B-2401-ag2017.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:27:14 hora de Lima] [02_SBS] B-2402-ag2017.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:16 hora de Lima] [02_SBS] B-2201-se2017.XLS: HTTP 200 | OK | 291840 bytes
+[2026-09-28 19:27:17 hora de Lima] [02_SBS] B-2401-se2017.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:27:18 hora de Lima] [02_SBS] B-2402-se2017.XLS: HTTP 200 | OK | 46080 bytes
+[2026-09-28 19:27:20 hora de Lima] [02_SBS] B-2201-oc2017.XLS: HTTP 200 | OK | 158506 bytes
+[2026-09-28 19:27:21 hora de Lima] [02_SBS] B-2401-oc2017.XLS: HTTP 200 | OK | 20053 bytes
+[2026-09-28 19:27:22 hora de Lima] [02_SBS] B-2402-oc2017.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:24 hora de Lima] [02_SBS] B-2201-no2017.XLS: HTTP 200 | OK | 292352 bytes
+[2026-09-28 19:27:25 hora de Lima] [02_SBS] B-2401-no2017.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:27:26 hora de Lima] [02_SBS] B-2402-no2017.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:27:28 hora de Lima] [02_SBS] B-2201-di2017.XLS: HTTP 200 | OK | 159239 bytes
+[2026-09-28 19:27:29 hora de Lima] [02_SBS] B-2401-di2017.XLS: HTTP 200 | OK | 19590 bytes
+[2026-09-28 19:27:30 hora de Lima] [02_SBS] B-2402-di2017.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:27:32 hora de Lima] [02_SBS] B-2201-en2018.XLS: HTTP 200 | OK | 156090 bytes
+[2026-09-28 19:27:33 hora de Lima] [02_SBS] B-2401-en2018.XLS: HTTP 200 | OK | 19471 bytes
+[2026-09-28 19:27:34 hora de Lima] [02_SBS] B-2402-en2018.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:36 hora de Lima] [02_SBS] B-2201-fe2018.XLS: HTTP 200 | OK | 156606 bytes
+[2026-09-28 19:27:37 hora de Lima] [02_SBS] B-2401-fe2018.XLS: HTTP 200 | OK | 19466 bytes
+[2026-09-28 19:27:38 hora de Lima] [02_SBS] B-2402-fe2018.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:40 hora de Lima] [02_SBS] B-2201-ma2018.XLS: HTTP 200 | OK | 156989 bytes
+[2026-09-28 19:27:41 hora de Lima] [02_SBS] B-2401-ma2018.XLS: HTTP 200 | OK | 19614 bytes
+[2026-09-28 19:27:42 hora de Lima] [02_SBS] B-2402-ma2018.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:27:43 hora de Lima] [02_SBS] B-2201-ab2018.XLS: HTTP 200 | OK | 156905 bytes
+[2026-09-28 19:27:45 hora de Lima] [02_SBS] B-2401-ab2018.XLS: HTTP 200 | OK | 19501 bytes
+[2026-09-28 19:27:46 hora de Lima] [02_SBS] B-2402-ab2018.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:47 hora de Lima] [02_SBS] B-2201-my2018.XLS: HTTP 200 | OK | 157621 bytes
+[2026-09-28 19:27:48 hora de Lima] [02_SBS] B-2401-my2018.XLS: HTTP 200 | OK | 19462 bytes
+[2026-09-28 19:27:50 hora de Lima] [02_SBS] B-2402-my2018.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:51 hora de Lima] [02_SBS] B-2201-jn2018.XLS: HTTP 200 | OK | 158051 bytes
+[2026-09-28 19:27:52 hora de Lima] [02_SBS] B-2401-jn2018.XLS: HTTP 200 | OK | 19375 bytes
+[2026-09-28 19:27:54 hora de Lima] [02_SBS] B-2402-jn2018.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:27:55 hora de Lima] [02_SBS] B-2201-jl2018.XLS: HTTP 200 | OK | 157747 bytes
+[2026-09-28 19:27:56 hora de Lima] [02_SBS] B-2401-jl2018.XLS: HTTP 200 | OK | 19440 bytes
+[2026-09-28 19:27:58 hora de Lima] [02_SBS] B-2402-jl2018.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:27:59 hora de Lima] [02_SBS] B-2201-ag2018.XLS: HTTP 200 | OK | 158470 bytes
+[2026-09-28 19:28:00 hora de Lima] [02_SBS] B-2401-ag2018.XLS: HTTP 200 | OK | 19658 bytes
+[2026-09-28 19:28:02 hora de Lima] [02_SBS] B-2402-ag2018.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:28:03 hora de Lima] [02_SBS] B-2201-se2018.XLS: HTTP 200 | OK | 158757 bytes
+[2026-09-28 19:28:04 hora de Lima] [02_SBS] B-2401-se2018.XLS: HTTP 200 | OK | 19438 bytes
+[2026-09-28 19:28:06 hora de Lima] [02_SBS] B-2402-se2018.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:28:07 hora de Lima] [02_SBS] B-2201-oc2018.XLS: HTTP 200 | OK | 159063 bytes
+[2026-09-28 19:28:08 hora de Lima] [02_SBS] B-2401-oc2018.XLS: HTTP 200 | OK | 19396 bytes
+[2026-09-28 19:28:09 hora de Lima] [02_SBS] B-2402-oc2018.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:28:11 hora de Lima] [02_SBS] B-2201-no2018.XLS: HTTP 200 | OK | 157190 bytes
+[2026-09-28 19:28:12 hora de Lima] [02_SBS] B-2401-no2018.XLS: HTTP 200 | OK | 19523 bytes
+[2026-09-28 19:28:13 hora de Lima] [02_SBS] B-2402-no2018.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:28:15 hora de Lima] [02_SBS] B-2201-di2018.XLS: HTTP 200 | OK | 158590 bytes
+[2026-09-28 19:28:16 hora de Lima] [02_SBS] B-2401-di2018.XLS: HTTP 200 | OK | 19524 bytes
+[2026-09-28 19:28:17 hora de Lima] [02_SBS] B-2402-di2018.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:28:19 hora de Lima] [02_SBS] B-2201-en2019.XLS: HTTP 200 | OK | 156059 bytes
+[2026-09-28 19:28:20 hora de Lima] [02_SBS] B-2401-en2019.XLS: HTTP 200 | OK | 19508 bytes
+[2026-09-28 19:28:21 hora de Lima] [02_SBS] B-2402-en2019.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:28:23 hora de Lima] [02_SBS] B-2201-fe2019.XLS: HTTP 200 | OK | 156484 bytes
+[2026-09-28 19:28:24 hora de Lima] [02_SBS] B-2401-fe2019.XLS: HTTP 200 | OK | 19562 bytes
+[2026-09-28 19:28:25 hora de Lima] [02_SBS] B-2402-fe2019.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:28:27 hora de Lima] [02_SBS] B-2201-ma2019.XLS: HTTP 200 | OK | 149231 bytes
+[2026-09-28 19:28:28 hora de Lima] [02_SBS] B-2401-ma2019.XLS: HTTP 200 | OK | 19429 bytes
+[2026-09-28 19:28:30 hora de Lima] [02_SBS] B-2402-ma2019.XLS: HTTP 200 | OK | 45568 bytes
+[2026-09-28 19:28:31 hora de Lima] [02_SBS] B-2201-ab2019.XLS: HTTP 200 | OK | 151319 bytes
+[2026-09-28 19:28:32 hora de Lima] [02_SBS] B-2401-ab2019.XLS: HTTP 200 | OK | 19180 bytes
+[2026-09-28 19:28:34 hora de Lima] [02_SBS] B-2402-ab2019.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:28:36 hora de Lima] [02_SBS] B-2201-my2019.XLS: HTTP 200 | OK | 151460 bytes
+[2026-09-28 19:28:37 hora de Lima] [02_SBS] B-2401-my2019.XLS: HTTP 200 | OK | 19217 bytes
+[2026-09-28 19:28:38 hora de Lima] [02_SBS] B-2402-my2019.XLS: HTTP 200 | OK | 46592 bytes
+[2026-09-28 19:28:40 hora de Lima] [02_SBS] B-2201-jn2019.XLS: HTTP 200 | OK | 151791 bytes
+[2026-09-28 19:28:41 hora de Lima] [02_SBS] B-2401-jn2019.XLS: HTTP 200 | OK | 19257 bytes
+[2026-09-28 19:28:42 hora de Lima] [02_SBS] B-2402-jn2019.XLS: HTTP 200 | OK | 46080 bytes
+[2026-09-28 19:28:44 hora de Lima] [02_SBS] B-2201-jl2019.XLS: HTTP 200 | OK | 151790 bytes
+[2026-09-28 19:28:45 hora de Lima] [02_SBS] B-2401-jl2019.XLS: HTTP 200 | OK | 19216 bytes
+[2026-09-28 19:28:47 hora de Lima] [02_SBS] B-2402-jl2019.XLS: HTTP 200 | OK | 47616 bytes
+[2026-09-28 19:28:48 hora de Lima] [02_SBS] B-2201-ag2019.XLS: HTTP 200 | OK | 152345 bytes
+[2026-09-28 19:28:49 hora de Lima] [02_SBS] B-2401-ag2019.XLS: HTTP 200 | OK | 19157 bytes
+[2026-09-28 19:28:51 hora de Lima] [02_SBS] B-2402-ag2019.XLS: HTTP 200 | OK | 46080 bytes
+[2026-09-28 19:28:52 hora de Lima] [02_SBS] B-2201-se2019.XLS: HTTP 200 | OK | 152112 bytes
+[2026-09-28 19:28:53 hora de Lima] [02_SBS] B-2401-se2019.XLS: HTTP 200 | OK | 19144 bytes
+[2026-09-28 19:28:54 hora de Lima] [02_SBS] B-2402-se2019.XLS: HTTP 200 | OK | 46080 bytes
+[2026-09-28 19:28:56 hora de Lima] [02_SBS] B-2201-oc2019.XLS: HTTP 200 | OK | 152298 bytes
+[2026-09-28 19:28:57 hora de Lima] [02_SBS] B-2401-oc2019.XLS: HTTP 200 | OK | 19094 bytes
+[2026-09-28 19:28:59 hora de Lima] [02_SBS] B-2402-oc2019.XLS: HTTP 200 | OK | 46080 bytes
+[2026-09-28 19:29:00 hora de Lima] [02_SBS] B-2201-no2019.XLS: HTTP 200 | OK | 152449 bytes
+[2026-09-28 19:29:01 hora de Lima] [02_SBS] B-2401-no2019.XLS: HTTP 200 | OK | 19177 bytes
+[2026-09-28 19:29:03 hora de Lima] [02_SBS] B-2402-no2019.XLS: HTTP 200 | OK | 48128 bytes
+[2026-09-28 19:29:04 hora de Lima] [02_SBS] B-2201-di2019.XLS: HTTP 200 | OK | 142609 bytes
+[2026-09-28 19:29:05 hora de Lima] [02_SBS] B-2401-di2019.XLS: HTTP 200 | OK | 19012 bytes
+[2026-09-28 19:29:06 hora de Lima] [02_SBS] B-2402-di2019.XLS: HTTP 200 | OK | 47616 bytes
+[2026-09-28 19:29:08 hora de Lima] [02_SBS] B-2201-en2020.XLS: HTTP 200 | OK | 140043 bytes
+[2026-09-28 19:29:09 hora de Lima] [02_SBS] B-2401-en2020.XLS: HTTP 200 | OK | 19044 bytes
+[2026-09-28 19:29:10 hora de Lima] [02_SBS] B-2402-en2020.XLS: HTTP 200 | OK | 47616 bytes
+[2026-09-28 19:29:12 hora de Lima] [02_SBS] B-2201-fe2020.XLS: HTTP 200 | OK | 140786 bytes
+[2026-09-28 19:29:13 hora de Lima] [02_SBS] B-2401-fe2020.XLS: HTTP 200 | OK | 18975 bytes
+[2026-09-28 19:29:14 hora de Lima] [02_SBS] B-2402-fe2020.XLS: HTTP 200 | OK | 47616 bytes
+[2026-09-28 19:29:16 hora de Lima] [02_SBS] B-2201-ma2020.XLS: HTTP 200 | OK | 141108 bytes
+[2026-09-28 19:29:17 hora de Lima] [02_SBS] B-2401-ma2020.XLS: HTTP 200 | OK | 18985 bytes
+[2026-09-28 19:29:18 hora de Lima] [02_SBS] B-2402-ma2020.XLS: HTTP 200 | OK | 47616 bytes
+[2026-09-28 19:29:20 hora de Lima] [02_SBS] B-2201-ab2020.XLS: HTTP 200 | OK | 140709 bytes
+[2026-09-28 19:29:21 hora de Lima] [02_SBS] B-2401-ab2020.XLS: HTTP 200 | OK | 19666 bytes
+[2026-09-28 19:29:22 hora de Lima] [02_SBS] B-2402-ab2020.XLS: HTTP 200 | OK | 47616 bytes
+[2026-09-28 19:29:24 hora de Lima] [02_SBS] B-2201-my2020.XLS: HTTP 200 | OK | 141261 bytes
+[2026-09-28 19:29:25 hora de Lima] [02_SBS] B-2401-my2020.XLS: HTTP 200 | OK | 19666 bytes
+[2026-09-28 19:29:26 hora de Lima] [02_SBS] B-2402-my2020.XLS: HTTP 200 | OK | 47616 bytes
+[2026-09-28 19:29:28 hora de Lima] [02_SBS] B-2201-jn2020.XLS: HTTP 200 | OK | 141670 bytes
+[2026-09-28 19:29:29 hora de Lima] [02_SBS] B-2401-jn2020.XLS: HTTP 200 | OK | 19729 bytes
+[2026-09-28 19:29:30 hora de Lima] [02_SBS] B-2402-jn2020.XLS: HTTP 200 | OK | 47616 bytes
+[2026-09-28 19:29:32 hora de Lima] [02_SBS] B-2201-jl2020.XLS: HTTP 200 | OK | 145958 bytes
+[2026-09-28 19:29:33 hora de Lima] [02_SBS] B-2401-jl2020.XLS: HTTP 200 | OK | 19905 bytes
+[2026-09-28 19:29:34 hora de Lima] [02_SBS] B-2402-jl2020.XLS: HTTP 200 | OK | 49664 bytes
+[2026-09-28 19:29:36 hora de Lima] [02_SBS] B-2201-ag2020.XLS: HTTP 200 | OK | 146850 bytes
+[2026-09-28 19:29:37 hora de Lima] [02_SBS] B-2401-ag2020.XLS: HTTP 200 | OK | 19734 bytes
+[2026-09-28 19:29:38 hora de Lima] [02_SBS] B-2402-ag2020.XLS: HTTP 200 | OK | 49152 bytes
+[2026-09-28 19:29:40 hora de Lima] [02_SBS] B-2201-se2020.XLS: HTTP 200 | OK | 145788 bytes
+[2026-09-28 19:29:41 hora de Lima] [02_SBS] B-2401-se2020.XLS: HTTP 200 | OK | 19662 bytes
+[2026-09-28 19:29:42 hora de Lima] [02_SBS] B-2402-se2020.XLS: HTTP 200 | OK | 49152 bytes
+[2026-09-28 19:29:44 hora de Lima] [02_SBS] B-2201-oc2020.XLS: HTTP 200 | OK | 146464 bytes
+[2026-09-28 19:29:45 hora de Lima] [02_SBS] B-2401-oc2020.XLS: HTTP 200 | OK | 19696 bytes
+[2026-09-28 19:29:46 hora de Lima] [02_SBS] B-2402-oc2020.XLS: HTTP 200 | OK | 49152 bytes
+[2026-09-28 19:29:48 hora de Lima] [02_SBS] B-2201-no2020.XLS: HTTP 200 | OK | 146389 bytes
+[2026-09-28 19:29:49 hora de Lima] [02_SBS] B-2401-no2020.XLS: HTTP 200 | OK | 19596 bytes
+[2026-09-28 19:29:50 hora de Lima] [02_SBS] B-2402-no2020.XLS: HTTP 200 | OK | 49152 bytes
+[2026-09-28 19:29:52 hora de Lima] [02_SBS] B-2201-di2020.XLS: HTTP 200 | OK | 146381 bytes
+[2026-09-28 19:29:53 hora de Lima] [02_SBS] B-2401-di2020.XLS: HTTP 200 | OK | 19689 bytes
+[2026-09-28 19:29:54 hora de Lima] [02_SBS] B-2402-di2020.XLS: HTTP 200 | OK | 49152 bytes
+[2026-09-28 19:29:55 hora de Lima] [02_SBS] B-2201-en2021.XLS: HTTP 200 | OK | 138885 bytes
+[2026-09-28 19:29:57 hora de Lima] [02_SBS] B-2401-en2021.XLS: HTTP 200 | OK | 19823 bytes
+[2026-09-28 19:29:58 hora de Lima] [02_SBS] B-2402-en2021.XLS: HTTP 200 | OK | 49152 bytes
+[2026-09-28 19:29:59 hora de Lima] [02_SBS] B-2201-fe2021.XLS: HTTP 200 | OK | 139213 bytes
+[2026-09-28 19:30:01 hora de Lima] [02_SBS] B-2401-fe2021.XLS: HTTP 200 | OK | 19661 bytes
+[2026-09-28 19:30:02 hora de Lima] [02_SBS] B-2402-fe2021.XLS: HTTP 200 | OK | 49152 bytes
+[2026-09-28 19:30:03 hora de Lima] [02_SBS] B-2201-ma2021.XLS: HTTP 200 | OK | 139730 bytes
+[2026-09-28 19:30:05 hora de Lima] [02_SBS] B-2401-ma2021.XLS: HTTP 200 | OK | 18635 bytes
+[2026-09-28 19:30:06 hora de Lima] [02_SBS] B-2402-ma2021.XLS: HTTP 200 | OK | 49152 bytes
+[2026-09-28 19:30:07 hora de Lima] [02_SBS] B-2201-ab2021.XLS: HTTP 200 | OK | 139997 bytes
+[2026-09-28 19:30:09 hora de Lima] [02_SBS] B-2401-ab2021.XLS: HTTP 200 | OK | 19681 bytes
+[2026-09-28 19:30:10 hora de Lima] [02_SBS] B-2402-ab2021.XLS: HTTP 200 | OK | 41472 bytes
+[2026-09-28 19:30:11 hora de Lima] [02_SBS] B-2201-my2021.XLS: HTTP 200 | OK | 138492 bytes
+[2026-09-28 19:30:13 hora de Lima] [02_SBS] B-2401-my2021.XLS: HTTP 200 | OK | 19693 bytes
+[2026-09-28 19:30:14 hora de Lima] [02_SBS] B-2402-my2021.XLS: HTTP 200 | OK | 41472 bytes
+[2026-09-28 19:30:16 hora de Lima] [02_SBS] B-2201-jn2021.XLS: HTTP 200 | OK | 140544 bytes
+[2026-09-28 19:30:18 hora de Lima] [02_SBS] B-2401-jn2021.XLS: HTTP 200 | OK | 19635 bytes
+[2026-09-28 19:30:19 hora de Lima] [02_SBS] B-2402-jn2021.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:30:21 hora de Lima] [02_SBS] B-2201-jl2021.XLS: HTTP 200 | OK | 141145 bytes
+[2026-09-28 19:30:22 hora de Lima] [02_SBS] B-2401-jl2021.XLS: HTTP 200 | OK | 19618 bytes
+[2026-09-28 19:30:23 hora de Lima] [02_SBS] B-2402-jl2021.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:30:25 hora de Lima] [02_SBS] B-2201-ag2021.XLS: HTTP 200 | OK | 140943 bytes
+[2026-09-28 19:30:26 hora de Lima] [02_SBS] B-2401-ag2021.XLS: HTTP 200 | OK | 19571 bytes
+[2026-09-28 19:30:28 hora de Lima] [02_SBS] B-2402-ag2021.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:30:29 hora de Lima] [02_SBS] B-2201-se2021.XLS: HTTP 200 | OK | 141149 bytes
+[2026-09-28 19:30:30 hora de Lima] [02_SBS] B-2401-se2021.XLS: HTTP 200 | OK | 19589 bytes
+[2026-09-28 19:30:32 hora de Lima] [02_SBS] B-2402-se2021.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:30:33 hora de Lima] [02_SBS] B-2201-oc2021.XLS: HTTP 200 | OK | 139533 bytes
+[2026-09-28 19:30:35 hora de Lima] [02_SBS] B-2401-oc2021.XLS: HTTP 200 | OK | 19693 bytes
+[2026-09-28 19:30:36 hora de Lima] [02_SBS] B-2402-oc2021.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:30:37 hora de Lima] [02_SBS] B-2201-no2021.XLS: HTTP 200 | OK | 140140 bytes
+[2026-09-28 19:30:39 hora de Lima] [02_SBS] B-2401-no2021.XLS: HTTP 200 | OK | 20082 bytes
+[2026-09-28 19:30:40 hora de Lima] [02_SBS] B-2402-no2021.XLS: HTTP 200 | OK | 41472 bytes
+[2026-09-28 19:30:41 hora de Lima] [02_SBS] B-2201-di2021.XLS: HTTP 200 | OK | 141157 bytes
+[2026-09-28 19:30:43 hora de Lima] [02_SBS] B-2401-di2021.XLS: HTTP 200 | OK | 19567 bytes
+[2026-09-28 19:30:44 hora de Lima] [02_SBS] B-2402-di2021.XLS: HTTP 200 | OK | 41472 bytes
+[2026-09-28 19:30:45 hora de Lima] [02_SBS] B-2201-en2022.XLS: HTTP 200 | OK | 138888 bytes
+[2026-09-28 19:30:47 hora de Lima] [02_SBS] B-2401-en2022.XLS: HTTP 200 | OK | 19310 bytes
+[2026-09-28 19:30:48 hora de Lima] [02_SBS] B-2402-en2022.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:30:49 hora de Lima] [02_SBS] B-2201-fe2022.XLS: HTTP 200 | OK | 139815 bytes
+[2026-09-28 19:30:50 hora de Lima] [02_SBS] B-2401-fe2022.XLS: HTTP 200 | OK | 19677 bytes
+[2026-09-28 19:30:52 hora de Lima] [02_SBS] B-2402-fe2022.XLS: HTTP 200 | OK | 41472 bytes
+[2026-09-28 19:30:53 hora de Lima] [02_SBS] B-2201-ma2022.XLS: HTTP 200 | OK | 140464 bytes
+[2026-09-28 19:30:54 hora de Lima] [02_SBS] B-2401-ma2022.XLS: HTTP 200 | OK | 19581 bytes
+[2026-09-28 19:30:56 hora de Lima] [02_SBS] B-2402-ma2022.XLS: HTTP 200 | OK | 41472 bytes
+[2026-09-28 19:30:57 hora de Lima] [02_SBS] B-2201-ab2022.XLS: HTTP 200 | OK | 140793 bytes
+[2026-09-28 19:30:58 hora de Lima] [02_SBS] B-2401-ab2022.XLS: HTTP 200 | OK | 19579 bytes
+[2026-09-28 19:31:00 hora de Lima] [02_SBS] B-2402-ab2022.XLS: HTTP 200 | OK | 41472 bytes
+[2026-09-28 19:31:01 hora de Lima] [02_SBS] B-2201-my2022.XLS: HTTP 200 | OK | 140958 bytes
+[2026-09-28 19:31:02 hora de Lima] [02_SBS] B-2401-my2022.XLS: HTTP 200 | OK | 19691 bytes
+[2026-09-28 19:31:03 hora de Lima] [02_SBS] B-2402-my2022.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:31:05 hora de Lima] [02_SBS] B-2201-jn2022.XLS: HTTP 200 | OK | 140994 bytes
+[2026-09-28 19:31:06 hora de Lima] [02_SBS] B-2401-jn2022.XLS: HTTP 200 | OK | 19626 bytes
+[2026-09-28 19:31:07 hora de Lima] [02_SBS] B-2402-jn2022.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:31:09 hora de Lima] [02_SBS] B-2201-jl2022.XLS: HTTP 200 | OK | 146477 bytes
+[2026-09-28 19:31:10 hora de Lima] [02_SBS] B-2401-jl2022.XLS: HTTP 200 | OK | 19975 bytes
+[2026-09-28 19:31:11 hora de Lima] [02_SBS] B-2402-jl2022.XLS: HTTP 200 | OK | 41984 bytes
+[2026-09-28 19:31:13 hora de Lima] [02_SBS] B-2201-ag2022.XLS: HTTP 200 | OK | 146727 bytes
+[2026-09-28 19:31:14 hora de Lima] [02_SBS] B-2401-ag2022.XLS: HTTP 200 | OK | 19975 bytes
+[2026-09-28 19:31:15 hora de Lima] [02_SBS] B-2402-ag2022.XLS: HTTP 200 | OK | 41984 bytes
+[2026-09-28 19:31:17 hora de Lima] [02_SBS] B-2201-se2022.XLS: HTTP 200 | OK | 146888 bytes
+[2026-09-28 19:31:18 hora de Lima] [02_SBS] B-2401-se2022.XLS: HTTP 200 | OK | 19952 bytes
+[2026-09-28 19:31:19 hora de Lima] [02_SBS] B-2402-se2022.XLS: HTTP 200 | OK | 41984 bytes
+[2026-09-28 19:31:21 hora de Lima] [02_SBS] B-2201-oc2022.XLS: HTTP 200 | OK | 146973 bytes
+[2026-09-28 19:31:22 hora de Lima] [02_SBS] B-2401-oc2022.XLS: HTTP 200 | OK | 19835 bytes
+[2026-09-28 19:31:23 hora de Lima] [02_SBS] B-2402-oc2022.XLS: HTTP 200 | OK | 40448 bytes
+[2026-09-28 19:31:24 hora de Lima] [02_SBS] B-2201-no2022.XLS: HTTP 200 | OK | 147097 bytes
+[2026-09-28 19:31:26 hora de Lima] [02_SBS] B-2401-no2022.XLS: HTTP 200 | OK | 19851 bytes
+[2026-09-28 19:31:27 hora de Lima] [02_SBS] B-2402-no2022.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:31:28 hora de Lima] [02_SBS] B-2201-di2022.XLS: HTTP 200 | OK | 147077 bytes
+[2026-09-28 19:31:30 hora de Lima] [02_SBS] B-2401-di2022.XLS: HTTP 200 | OK | 19905 bytes
+[2026-09-28 19:31:31 hora de Lima] [02_SBS] B-2402-di2022.XLS: HTTP 200 | OK | 39936 bytes
+[2026-09-28 19:31:32 hora de Lima] [02_SBS] B-2201-en2023.XLS: HTTP 200 | OK | 144438 bytes
+[2026-09-28 19:31:33 hora de Lima] [02_SBS] B-2401-en2023.XLS: HTTP 200 | OK | 19834 bytes
+[2026-09-28 19:31:35 hora de Lima] [02_SBS] B-2402-en2023.XLS: HTTP 200 | OK | 40960 bytes
+[2026-09-28 19:31:36 hora de Lima] [02_SBS] B-2201-fe2023.XLS: HTTP 200 | OK | 145362 bytes
+[2026-09-28 19:31:37 hora de Lima] [02_SBS] B-2401-fe2023.XLS: HTTP 200 | OK | 19899 bytes
+[2026-09-28 19:31:39 hora de Lima] [02_SBS] B-2402-fe2023.XLS: HTTP 200 | OK | 40960 bytes
+[2026-09-28 19:31:40 hora de Lima] [02_SBS] B-2201-ma2023.XLS: HTTP 200 | OK | 145695 bytes
+[2026-09-28 19:31:41 hora de Lima] [02_SBS] B-2401-ma2023.XLS: HTTP 200 | OK | 19852 bytes
+[2026-09-28 19:31:42 hora de Lima] [02_SBS] B-2402-ma2023.XLS: HTTP 200 | OK | 40960 bytes
+[2026-09-28 19:31:44 hora de Lima] [02_SBS] B-2201-ab2023.XLS: HTTP 200 | OK | 146877 bytes
+[2026-09-28 19:31:45 hora de Lima] [02_SBS] B-2401-ab2023.XLS: HTTP 200 | OK | 20352 bytes
+[2026-09-28 19:31:46 hora de Lima] [02_SBS] B-2402-ab2023.XLS: HTTP 200 | OK | 40960 bytes
+[2026-09-28 19:31:48 hora de Lima] [02_SBS] B-2201-my2023.XLS: HTTP 200 | OK | 147439 bytes
+[2026-09-28 19:31:49 hora de Lima] [02_SBS] B-2401-my2023.XLS: HTTP 200 | OK | 20367 bytes
+[2026-09-28 19:31:51 hora de Lima] [02_SBS] B-2402-my2023.XLS: HTTP 200 | OK | 40960 bytes
+[2026-09-28 19:31:53 hora de Lima] [02_SBS] B-2201-jn2023.XLS: HTTP 200 | OK | 147562 bytes
+[2026-09-28 19:31:54 hora de Lima] [02_SBS] B-2401-jn2023.XLS: HTTP 200 | OK | 20105 bytes
+[2026-09-28 19:31:55 hora de Lima] [02_SBS] B-2402-jn2023.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:31:57 hora de Lima] [02_SBS] B-2201-jl2023.XLS: HTTP 200 | OK | 147724 bytes
+[2026-09-28 19:31:58 hora de Lima] [02_SBS] B-2401-jl2023.XLS: HTTP 200 | OK | 20186 bytes
+[2026-09-28 19:31:59 hora de Lima] [02_SBS] B-2402-jl2023.XLS: HTTP 200 | OK | 45568 bytes
+[2026-09-28 19:32:01 hora de Lima] [02_SBS] B-2201-ag2023.XLS: HTTP 200 | OK | 148029 bytes
+[2026-09-28 19:32:02 hora de Lima] [02_SBS] B-2401-ag2023.XLS: HTTP 200 | OK | 20858 bytes
+[2026-09-28 19:32:03 hora de Lima] [02_SBS] B-2402-ag2023.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:32:05 hora de Lima] [02_SBS] B-2201-se2023.XLS: HTTP 200 | OK | 148273 bytes
+[2026-09-28 19:32:06 hora de Lima] [02_SBS] B-2401-se2023.XLS: HTTP 200 | OK | 21024 bytes
+[2026-09-28 19:32:07 hora de Lima] [02_SBS] B-2402-se2023.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:32:09 hora de Lima] [02_SBS] B-2201-oc2023.XLS: HTTP 200 | OK | 148351 bytes
+[2026-09-28 19:32:10 hora de Lima] [02_SBS] B-2401-oc2023.XLS: HTTP 200 | OK | 21145 bytes
+[2026-09-28 19:32:11 hora de Lima] [02_SBS] B-2402-oc2023.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:32:13 hora de Lima] [02_SBS] B-2201-no2023.XLS: HTTP 200 | OK | 146209 bytes
+[2026-09-28 19:32:14 hora de Lima] [02_SBS] B-2401-no2023.XLS: HTTP 200 | OK | 20242 bytes
+[2026-09-28 19:32:15 hora de Lima] [02_SBS] B-2402-no2023.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:32:17 hora de Lima] [02_SBS] B-2201-di2023.XLS: HTTP 200 | OK | 148565 bytes
+[2026-09-28 19:32:18 hora de Lima] [02_SBS] B-2401-di2023.XLS: HTTP 200 | OK | 20078 bytes
+[2026-09-28 19:32:19 hora de Lima] [02_SBS] B-2402-di2023.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:32:21 hora de Lima] [02_SBS] B-2201-en2024.XLS: HTTP 200 | OK | 145981 bytes
+[2026-09-28 19:32:22 hora de Lima] [02_SBS] B-2401-en2024.XLS: HTTP 200 | OK | 20574 bytes
+[2026-09-28 19:32:23 hora de Lima] [02_SBS] B-2402-en2024.XLS: HTTP 200 | OK | 44032 bytes
+[2026-09-28 19:32:25 hora de Lima] [02_SBS] B-2201-fe2024.XLS: HTTP 200 | OK | 146480 bytes
+[2026-09-28 19:32:26 hora de Lima] [02_SBS] B-2401-fe2024.XLS: HTTP 200 | OK | 20631 bytes
+[2026-09-28 19:32:27 hora de Lima] [02_SBS] B-2402-fe2024.XLS: HTTP 200 | OK | 45568 bytes
+[2026-09-28 19:32:29 hora de Lima] [02_SBS] B-2201-ma2024.XLS: HTTP 200 | OK | 146969 bytes
+[2026-09-28 19:32:30 hora de Lima] [02_SBS] B-2401-ma2024.XLS: HTTP 200 | OK | 20592 bytes
+[2026-09-28 19:32:31 hora de Lima] [02_SBS] B-2402-ma2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:32:33 hora de Lima] [02_SBS] B-2201-ab2024.XLS: HTTP 200 | OK | 147016 bytes
+[2026-09-28 19:32:34 hora de Lima] [02_SBS] B-2401-ab2024.XLS: HTTP 200 | OK | 20596 bytes
+[2026-09-28 19:32:35 hora de Lima] [02_SBS] B-2402-ab2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:32:37 hora de Lima] [02_SBS] B-2201-my2024.XLS: HTTP 200 | OK | 147235 bytes
+[2026-09-28 19:32:38 hora de Lima] [02_SBS] B-2401-my2024.XLS: HTTP 200 | OK | 20487 bytes
+[2026-09-28 19:32:39 hora de Lima] [02_SBS] B-2402-my2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:32:41 hora de Lima] [02_SBS] B-2201-jn2024.XLS: HTTP 200 | OK | 147647 bytes
+[2026-09-28 19:32:42 hora de Lima] [02_SBS] B-2401-jn2024.XLS: HTTP 200 | OK | 21096 bytes
+[2026-09-28 19:32:43 hora de Lima] [02_SBS] B-2402-jn2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:32:44 hora de Lima] [02_SBS] B-2201-jl2024.XLS: HTTP 200 | OK | 147784 bytes
+[2026-09-28 19:32:46 hora de Lima] [02_SBS] B-2401-jl2024.XLS: HTTP 200 | OK | 20776 bytes
+[2026-09-28 19:32:47 hora de Lima] [02_SBS] B-2402-jl2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:32:48 hora de Lima] [02_SBS] B-2201-ag2024.XLS: HTTP 200 | OK | 148191 bytes
+[2026-09-28 19:32:50 hora de Lima] [02_SBS] B-2401-ag2024.XLS: HTTP 200 | OK | 20813 bytes
+[2026-09-28 19:32:51 hora de Lima] [02_SBS] B-2402-ag2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:32:52 hora de Lima] [02_SBS] B-2201-se2024.XLS: HTTP 200 | OK | 148350 bytes
+[2026-09-28 19:32:54 hora de Lima] [02_SBS] B-2401-se2024.XLS: HTTP 200 | OK | 20807 bytes
+[2026-09-28 19:32:55 hora de Lima] [02_SBS] B-2402-se2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:32:57 hora de Lima] [02_SBS] B-2201-oc2024.XLS: HTTP 200 | OK | 148086 bytes
+[2026-09-28 19:32:58 hora de Lima] [02_SBS] B-2401-oc2024.XLS: HTTP 200 | OK | 20492 bytes
+[2026-09-28 19:32:59 hora de Lima] [02_SBS] B-2402-oc2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:33:00 hora de Lima] [02_SBS] B-2201-no2024.XLS: HTTP 200 | OK | 148438 bytes
+[2026-09-28 19:33:02 hora de Lima] [02_SBS] B-2401-no2024.XLS: HTTP 200 | OK | 20717 bytes
+[2026-09-28 19:33:03 hora de Lima] [02_SBS] B-2402-no2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:33:04 hora de Lima] [02_SBS] B-2201-di2024.XLS: HTTP 200 | OK | 148519 bytes
+[2026-09-28 19:33:06 hora de Lima] [02_SBS] B-2401-di2024.XLS: HTTP 200 | OK | 20748 bytes
+[2026-09-28 19:33:07 hora de Lima] [02_SBS] B-2402-di2024.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:33:08 hora de Lima] [02_SBS] B-2201-en2025.XLS: HTTP 200 | OK | 150913 bytes
+[2026-09-28 19:33:09 hora de Lima] [02_SBS] B-2401-en2025.XLS: HTTP 200 | OK | 21084 bytes
+[2026-09-28 19:33:11 hora de Lima] [02_SBS] B-2402-en2025.XLS: HTTP 200 | OK | 46592 bytes
+[2026-09-28 19:33:12 hora de Lima] [02_SBS] B-2201-fe2025.XLS: HTTP 200 | OK | 151777 bytes
+[2026-09-28 19:33:13 hora de Lima] [02_SBS] B-2401-fe2025.XLS: HTTP 200 | OK | 21479 bytes
+[2026-09-28 19:33:15 hora de Lima] [02_SBS] B-2402-fe2025.XLS: HTTP 200 | OK | 45056 bytes
+[2026-09-28 19:33:16 hora de Lima] [02_SBS] B-2201-ma2025.XLS: HTTP 200 | OK | 151972 bytes
+[2026-09-28 19:33:17 hora de Lima] [02_SBS] B-2401-ma2025.XLS: HTTP 200 | OK | 21381 bytes
+[2026-09-28 19:33:19 hora de Lima] [02_SBS] B-2402-ma2025.XLS: HTTP 200 | OK | 44544 bytes
+[2026-09-28 19:33:20 hora de Lima] [02_SBS] B-2201-ab2025.XLS: HTTP 200 | OK | 151176 bytes
+[2026-09-28 19:33:21 hora de Lima] [02_SBS] B-2401-ab2025.XLS: HTTP 200 | OK | 21002 bytes
+[2026-09-28 19:33:22 hora de Lima] [02_SBS] B-2402-ab2025.XLS: HTTP 200 | OK | 46080 bytes
+[2026-09-28 19:33:24 hora de Lima] [02_SBS] B-2201-my2025.XLS: HTTP 200 | OK | 152607 bytes
+[2026-09-28 19:33:25 hora de Lima] [02_SBS] B-2401-my2025.XLS: HTTP 200 | OK | 21316 bytes
+[2026-09-28 19:33:27 hora de Lima] [02_SBS] B-2402-my2025.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:33:28 hora de Lima] [02_SBS] B-2201-jn2025.XLS: HTTP 200 | OK | 157199 bytes
+[2026-09-28 19:33:30 hora de Lima] [02_SBS] B-2401-jn2025.XLS: HTTP 200 | OK | 21481 bytes
+[2026-09-28 19:33:31 hora de Lima] [02_SBS] B-2402-jn2025.XLS: HTTP 200 | OK | 40960 bytes
+[2026-09-28 19:33:32 hora de Lima] [02_SBS] B-2201-jl2025.XLS: HTTP 200 | OK | 157404 bytes
+[2026-09-28 19:33:33 hora de Lima] [02_SBS] B-2401-jl2025.XLS: HTTP 200 | OK | 21438 bytes
+[2026-09-28 19:33:35 hora de Lima] [02_SBS] B-2402-jl2025.XLS: HTTP 200 | OK | 40448 bytes
+[2026-09-28 19:33:36 hora de Lima] [02_SBS] B-2201-ag2025.XLS: HTTP 200 | OK | 157930 bytes
+[2026-09-28 19:33:37 hora de Lima] [02_SBS] B-2401-ag2025.XLS: HTTP 200 | OK | 21485 bytes
+[2026-09-28 19:33:39 hora de Lima] [02_SBS] B-2402-ag2025.XLS: HTTP 200 | OK | 40960 bytes
+[2026-09-28 19:33:40 hora de Lima] [02_SBS] B-2201-se2025.XLS: HTTP 200 | OK | 156807 bytes
+[2026-09-28 19:33:42 hora de Lima] [02_SBS] B-2401-se2025.XLS: HTTP 200 | OK | 20708 bytes
+[2026-09-28 19:33:43 hora de Lima] [02_SBS] B-2402-se2025.XLS: HTTP 200 | OK | 43520 bytes
+[2026-09-28 19:33:44 hora de Lima] [02_SBS] B-2201-oc2025.XLS: HTTP 200 | OK | 156845 bytes
+[2026-09-28 19:33:46 hora de Lima] [02_SBS] B-2401-oc2025.XLS: HTTP 200 | OK | 20697 bytes
+[2026-09-28 19:33:47 hora de Lima] [02_SBS] B-2402-oc2025.XLS: HTTP 200 | OK | 40448 bytes
+[2026-09-28 19:33:49 hora de Lima] [02_SBS] B-2201-no2025.XLS: HTTP 200 | OK | 158095 bytes
+[2026-09-28 19:33:50 hora de Lima] [02_SBS] B-2401-no2025.XLS: HTTP 200 | OK | 21414 bytes
+[2026-09-28 19:33:51 hora de Lima] [02_SBS] B-2402-no2025.XLS: HTTP 200 | OK | 40448 bytes
+[2026-09-28 19:33:53 hora de Lima] [02_SBS] B-2201-di2025.XLS: HTTP 200 | OK | 158216 bytes
+[2026-09-28 19:33:54 hora de Lima] [02_SBS] B-2401-di2025.XLS: HTTP 200 | OK | 20805 bytes
+[2026-09-28 19:33:55 hora de Lima] [02_SBS] B-2402-di2025.XLS: HTTP 200 | OK | 40448 bytes
+[2026-09-28 19:33:57 hora de Lima] [02_SBS] Inventario guardado: datos_crudos/inventario_descargas_sbs_2024200537D.csv
+[2026-09-28 19:33:57 hora de Lima] [02_SBS] Resumen de estados: {'OK': 579}
+[2026-09-28 19:33:57 hora de Lima] [02_SBS] Parte B: lectura de los archivos descargados
+[2026-09-28 19:34:34 hora de Lima] [02_SBS] Guardado datos_crudos/datos_crudos_sbs_2024200537D.csv: 772 filas | archivos con error de lectura: 0
+[2026-09-28 19:34:34 hora de Lima] [02_SBS] Valores encontrados por variable: {'periodo': 772, 'banco': 772, 'nombre_b2201': 772, 'patrimonio': 772, 'capital_social': 772, 'nombre_b2401': 772, 'roe': 772, 'morosidad': 772, 'nombre_b2402': 772, 'ratio_capital': 772}
+[2026-09-28 19:34:34 hora de Lima] [02_SBS] Fin del script 02
+[2026-09-28 19:37:03 hora de Lima] [03_LIMPIEZA] Inicio | periodo 2010-01-01 a 2025-12-31
+[2026-09-28 19:37:03 hora de Lima] [03_LIMPIEZA] Leídos: precios 16072 filas | splits 67 | SBS 772 filas
+[2026-09-28 19:37:03 hora de Lima] [03_LIMPIEZA] Días sin negociación excluidos: 6605
+[2026-09-28 19:37:03 hora de Lima] [03_LIMPIEZA] Días con negociación en el periodo: 9467
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] Eventos de acciones: {'confirmado': 59, 'aumento_sbs_sin_split': 7, 'reduccion_sbs': 2, 'split_sin_aumento_sbs': 1}
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] Rezago máximo SBS-Yahoo por banco (meses): {'BBVA Perú': 9, 'BCP': 8, 'Interbank': 6, 'Scotiabank Perú': 7}
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] VALIDACIÓN V1 datos completos: OK | 0 filas con algún dato faltante
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] VALIDACIÓN V2 tamaño mínimo: OK | 9081 observaciones válidas (mínimo 1000)
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] VALIDACIÓN V3 rango del P/B: OK | 0 valores fuera de 0-10
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] VALIDACIÓN V4 cobertura anual: OK | años con datos por banco: {'BBVA Perú': 16, 'BCP': 16, 'Interbank': 16, 'Scotiabank Perú': 16}
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] VALIDACIÓN V5 saltos del P/B: ALERTA | 11 cambios diarios mayores a 20%
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: BBVA Perú 2011-04-01 P/B=5.89 válida=True
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: BBVA Perú 2012-04-02 P/B=5.40 válida=True
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: BCP 2016-06-03 P/B=2.68 válida=True
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: BCP 2024-04-01 P/B=2.12 válida=True
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: Interbank 2010-04-05 P/B=4.09 válida=False
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: Interbank 2010-05-21 P/B=3.96 válida=False
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: Interbank 2011-04-01 P/B=5.08 válida=False
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: Interbank 2012-04-02 P/B=4.19 válida=False
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: Interbank 2013-04-01 P/B=4.12 válida=False
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: Interbank 2020-05-12 P/B=3.98 válida=False
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     salto: Scotiabank Perú 2010-03-29 P/B=2.41 válida=True
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     extremos BBVA Perú: mín 1.05 (2025-12-04) | máx 6.44 (2010-04-14)
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     extremos BCP: mín 1.16 (2021-08-19) | máx 4.16 (2011-01-28)
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     extremos Interbank: mín 1.06 (2025-09-24) | máx 4.02 (2010-12-28)
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA]     extremos Scotiabank Perú: mín 0.64 (2024-10-09) | máx 3.15 (2011-04-01)
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] Guardado datos_procesados/datos_procesados_2024200537D.csv: 9467 filas, 21 columnas (9081 válidas)
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] Guardado datos_procesados/eventos_acciones_2024200537D.csv: 69 eventos
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] Guardado datos_procesados/datos_mensuales_2024200537D.csv: 707 banco-mes
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] SHA-256 datos_procesados/datos_procesados_2024200537D.csv: 145d1a4660404ed4fa2ba0482141eeac014e5d27ea3835acf1ea7e910addbd24
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] SHA-256 datos_procesados/datos_mensuales_2024200537D.csv: 87848833d6dcfd001fa306f18c1f75aaa4f8d3f683bc809b9ae9b9a6ec1416fa
+[2026-09-28 19:37:04 hora de Lima] [03_LIMPIEZA] Fin del script 03
+[2026-09-28 19:38:51 hora de Lima] [04_ANALISIS] Inicio del análisis
+[2026-09-28 19:38:51 hora de Lima] [04_ANALISIS] Base diaria: 9467 filas (9081 válidas) | base mensual: 707 banco-mes
+[2026-09-28 19:38:51 hora de Lima] [04_ANALISIS] Valores faltantes en las variables del modelo: 0
+[2026-09-28 19:38:51 hora de Lima] [04_ANALISIS] Tabla guardada: salidas/tabla1_descriptivos_generales.csv
+[2026-09-28 19:38:51 hora de Lima] [04_ANALISIS] Tabla guardada: salidas/tabla1b_promedios_por_banco.csv
+[2026-09-28 19:38:52 hora de Lima] [04_ANALISIS] Figura guardada: salidas/figura1_evolucion_pb.png
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Figura guardada: salidas/figura2_pb_por_banco.png
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Figura guardada: salidas/figura3_pb_vs_roe.png
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Tabla guardada: salidas/tabla2_correlaciones.csv
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Tabla guardada: salidas/tabla3_regresion_mco.csv
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Tabla guardada: salidas/tabla3b_ajuste_modelo.csv
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] H ROE (%): coef = 0.0559 (esperado + (directa)) | p clásico = 0.0000 -> se rechaza H0
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] H ROE (%): coef = 0.0559 (esperado + (directa)) | p Newey-West = 0.0009 -> se rechaza H0
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] H Morosidad (%): coef = -0.4402 (esperado - (indirecta)) | p clásico = 0.0000 -> se rechaza H0
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] H Morosidad (%): coef = -0.4402 (esperado - (indirecta)) | p Newey-West = 0.0002 -> se rechaza H0
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] H Ratio de capital global (%): coef = 0.0372 (esperado sin dirección) | p clásico = 0.0829 -> no se rechaza H0
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] H Ratio de capital global (%): coef = 0.0372 (esperado sin dirección) | p Newey-West = 0.5404 -> no se rechaza H0
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Hipótesis general (prueba F Newey-West): p = 0.0160 -> se rechaza H0
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Tabla guardada: salidas/tabla4_supuestos.csv
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Durbin-Watson = 0.097 | Breusch-Pagan p = 0.0031 | Jarque-Bera p = 0.0000
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Tabla guardada: salidas/tabla5_robustez.csv
+[2026-09-28 19:38:53 hora de Lima] [04_ANALISIS] Robustez NW 24 rezagos: ROE (%) p = 0.0048 | Morosidad (%) p = 0.0019 | Ratio de capital global (%) p = 0.5983
+[2026-09-28 19:38:54 hora de Lima] [04_ANALISIS] Resumen guardado: salidas/resumen_regresion.txt
+[2026-09-28 19:38:54 hora de Lima] [04_ANALISIS] Fin del script 04
