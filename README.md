@@ -9,7 +9,7 @@
 - **Repositorio:** https://github.com/DanielaVasquezMedina/valuacion-bancos-peru-2024200537D
 
 ## Estado
-Código y análisis completos. Pendiente: ejecución final en carpeta limpia y carga de los datos crudos y el log.
+Completo. Ejecución final en carpeta limpia realizada el 2026-09-28: los cuatro scripts regeneraron la base con el mismo hash SHA-256.
 
 ## Fuentes de datos y endpoints
 
@@ -21,7 +21,7 @@ Código y análisis completos. Pendiente: ejecución final en carpeta limpia y c
 ## Parámetros de la consulta (congelados en el código)
 - Precios (scripts 01 y 03): `FECHA_INICIO = 2010-01-01`, `FECHA_CORTE = 2025-12-31`.
 - SBS (script 02): `PERIODO_INICIO = 2009-12`, `PERIODO_CORTE = 2025-12`. Diciembre de 2009 se descarga porque cada día usa los indicadores del mes anterior.
-- Fecha de extracción: 2026-09-24.
+- Fecha de extracción: 2026-09-28.
 
 ## Muestra
 BBVA Perú, BCP, Scotiabank Perú e Interbank: los bancos de banca múltiple con acción propia listada en la BVL, serie histórica de precios disponible en la vía API y negociación suficiente (se evaluaron los 19 bancos de la SBS).
@@ -44,7 +44,7 @@ El script 02 descarga 579 archivos con una pausa de 1 segundo entre solicitudes 
 
 ## Estructura
 - `codigo/`: los cuatro scripts.
-- `datos_crudos/`: datos tal como salen de la fuente (se cargan tras la ejecución final).
+- `datos_crudos/`: datos tal como salen de la fuente: precios y splits de Yahoo Finance, valores extraídos de la SBS e inventario de las 579 descargas (URL, código HTTP y hora). Los 579 archivos .XLS originales de la SBS (28.8 MB) se incluyen en la carpeta de entrega del curso y el script 02 los vuelve a descargar.
 - `datos_procesados/`: base diaria (`datos_procesados_2024200537D.csv`), base mensual (`datos_mensuales_2024200537D.csv`) y eventos de acciones (`eventos_acciones_2024200537D.csv`).
 - `salidas/`: tablas (.csv y .tex) y figuras (.png) del artículo.
 - `diccionario_variables.md`: definición de cada variable.
@@ -57,4 +57,4 @@ El script 02 descarga 579 archivos con una pausa de 1 segundo entre solicitudes 
 5. La base diaria es la evidencia verificable; la regresión se estima con la base mensual, porque las variables explicativas son mensuales.
 
 ## Verificación
-- SHA-256 de `datos_procesados/datos_procesados_2024200537D.csv`: `145d1a4660404ed4fa2ba0482141eeac014e5d27ea3835acf1ea7e910addbd24` (se actualizará tras la ejecución final si cambia).
+- SHA-256 de `datos_procesados/datos_procesados_2024200537D.csv`: `145d1a4660404ed4fa2ba0482141eeac014e5d27ea3835acf1ea7e910addbd24`    (confirmado en la ejecución final del 2026-09-28)
